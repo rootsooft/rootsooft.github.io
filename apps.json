@@ -1,10 +1,10 @@
 [
 
 {
-	"name": "Your App Name",
+	"name": "Ludo classique planche Jeu",
 	"rating": 5,
-	"package_name": "package name",
-	"image": "icon image link"
+	"package_name": "com.iss.classicludo.king.star.dice.boardgames",
+	"image": "https://infiniteapps.000webhostapp.com/ludo.png"
 },
 
 {
