@@ -1,11 +1,22 @@
 [
 
 {
-	"name": "Ludo classique planche Jeu",
-	"rating": 5,
-	"package_name": "com.iss.classicludo.king.star.dice.boardgames",
-	"image": "https://infiniteapps.000webhostapp.com/ludo.png"
+	"adShow": 5,
+	"adShowFB": 5,
+	"adCount": 0,
+	"ADMOB_BANNER": "Ludo classique planche Jeu",
+	"ADMOB_INTERSTITIAL": "com.iss.classicludo.king.star.dice.boardgames",
+	"ADMOB_ID": "https://infiniteapps.000webhostapp.com/ludo.png"
+	"ADMOB_NATIVE": "https://infiniteapps.000webhostapp.com/ludo.png"
+	"ADMOB_REWARD_ID": "https://infiniteapps.000webhostapp.com/ludo.png"
+	"ADS_TYPE": ""
+	"ADS_TYPE_ADMOB": ""
+	"ADS_TYPE_FACEBOOK_ADS": ""
+
+	
 },
+	
+
 
 {
 	"name": "Call Blocker",
