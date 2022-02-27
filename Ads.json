@@ -4,11 +4,13 @@
 	"adShow": 5,
 	"adShowFB": 5,
 	"adCount": 0,
-	"ADMOB_BANNER": "Ludo classique planche Jeu",
-	"ADMOB_INTERSTITIAL": "com.iss.classicludo.king.star.dice.boardgames",
-	"ADMOB_ID": "https://infiniteapps.000webhostapp.com/ludo.png"
-	"ADMOB_NATIVE": "https://infiniteapps.000webhostapp.com/ludo.png"
-	"ADMOB_REWARD_ID": "https://infiniteapps.000webhostapp.com/ludo.png"
+	"ADMOB_BANNER": "ca-app-pub-3940256099942544/6300978111",
+	"ADMOB_INTERSTITIAL": "ca-app-pub-3940256099942544/1033173712",
+	"ADMOB_INTERSTITIAL_VIDEO": "ca-app-pub-3940256099942544/8691691433",
+	"ADMOB_ID": "ca-app-pub-3940256099942544~3347511713"
+	"ADMOB_NATIVE": "ca-app-pub-3940256099942544/2247696110"
+	"ADMOB_REWARD_ID": "ca-app-pub-3940256099942544/5224354917"
+	"ADMOB_APP_OPEN": "ca-app-pub-3940256099942544/3419835294"
 	"ADS_TYPE": ""
 	"ADS_TYPE_ADMOB": ""
 	"ADS_TYPE_FACEBOOK_ADS": ""
