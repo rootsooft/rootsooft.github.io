@@ -1,8 +1,5 @@
 {
-	"blog": {
-		"blogger_id": "6536377959157801177",
-		"api_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	},
+	
 	"app": {
 		"status": "1",
 		"more_apps_url": "https://play.google.com/store/apps/developer?id=Solodroid",
@@ -36,54 +33,6 @@
 		"mopub_interstitial_ad_unit_id": "24534e1901884e398f1253216226017e",
 		"interstitial_ad_interval": 3
 	},
-	"labels": [
-	    {
-			"term": "Motorola",
-			"image": "https://i.ibb.co/kcsWQWL/cat-motorola.jpg"
-		},
-		{
-			"term": "Oppo",
-			"image": "https://i.ibb.co/T0ZVwjy/cat-oppo.jpg"
-		},
-		{
-			"term": "Samsung",
-			"image": "https://i.ibb.co/RcpbHmb/cat-samsung.jpg"
-		},
-		{
-			"term": "Android",
-			"image": "https://i.ibb.co/prG2X8Z/cat-android.jpg"
-		},
-		{
-			"term": "Google",
-			"image": "https://i.ibb.co/qkKMSZ0/cat-google.jpg"
-		},
-		{
-			"term": "Realme",
-			"image": "https://i.ibb.co/6tDKBKV/cat-realme.jpg"
-		},
-		{
-			"term": "Nokia",
-			"image": "https://i.ibb.co/Mhj3sZP/cat-nokia.jpg"
-		},
-		{
-			"term": "Vivo",
-			"image": "https://i.ibb.co/JrHkds9/cat-vivo.jpg"
-		},
-		{
-			"term": "Live Wallpaper",
-			"image": "https://i.ibb.co/7YRDywZ/cat-live-wallpaper.jpg"
-		},
-		{
-			"term": "Lenovo",
-			"image": "https://i.ibb.co/wp6mhZv/cat-lenovo.jpg"
-		},
-		{
-			"term": "iPhone",
-			"image": "https://i.ibb.co/1b74h0S/cat-iphone.jpg"
-		},
-		{
-			"term": "Asus",
-			"image": "https://i.ibb.co/RjkDq5r/cat-asus.jpg"
-		}
+	
 	]
 }
