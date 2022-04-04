@@ -1,69 +1,37 @@
 [
 {
 	"0":"1",
-	
 	"id":"1",
-	
 	"1":"ca-app-pub-3940256099942544~3347511713",
-	
 	"admobID":"ca-app-pub-3940256099942544~3347511713",
-	
 	"2":"ca-app-pub-3940256099942544\/6300978111",
-	
 	"bannerID":"ca-app-pub-3940256099942544\/6300978111",
-	
 	"3":"ca-app-pub-3940256099942544/8691691433",
-	
 	"interstitialID":"ca-app-pub-3940256099942544/8691691433",
-	
 	"4":"ca-app-pub-3940256099942544\/2247696110",
-	
 	"nativeID":"ca-app-pub-3940256099942544\/2247696110",
-	
 	"5":"ca-app-pub-3940256099942544/3419835294",
-	
 	"adsopenID":"ca-app-pub-3940256099942544/3419835294",
-	
 	"emailID":"Superdevlan@gmail.com",
-	
 	"acall1ID":"+98 126 7638 1642",
-	
 	"bcall2ID":"+98 126 7638 5452",
-	
 	"ccall3ID":"+98 126 7638 7852",
-	
 	"dcall4ID":"+97 458 7878 3333",
-	
 	"ecall5ID":"+98 126 7638 1567",
-		
 	"bcallname1ID":"شفا",
-	
 	"vcallname2ID":"شفا",
-	
 	"gcallname3ID":"شفا",
-	
 	"kcallname4ID":"شفا",
-	
 	"mcallname5ID":"شفا",
-
         "appnameID":"تطبيق فيديو شفا تتصل بك",
-	
 	"webID":"https://rootsooft.github.io",
-	
 	"infoID":"مرحبا تعال ندردش مع بعض",
-	
 	"infotitelID":"دردشة",
-	
 	"infotitelcallID":"رقم الإتصال",
-
 	"ratdialogID":"إذا أعجبك هذا التطبيق ، فيرجى التوقف لحظة لتقييمه بـ 5 نجوم لدعمنا!",
-
 	"6":"ADMOB",
-	
 	"adType":"ADMOB",
-	
 	"7":"1",
-	
 	"activeAd":"1"
 	
 	
