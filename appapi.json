@@ -1,9 +1,8 @@
-{
+ {
     "ALL_IN_ONE_VIDEO": [
         {
-            "app_author": "1165ea01-61aa-4a8e-a869-e6273fc87046"
-			"app_name": "hhhhhhhhhhhhh"
-
+            "status": -1,
+            "message": "Invalid sign salt."
         }
     ]
 }
