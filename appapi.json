@@ -3,8 +3,8 @@
         {
             "status": -1,
             "message": "Invalid sign salt."
-            "app_author": "1165ea01-61aa-4a8e-a869-e6273fc87046"
-		         	"app_name": "hhhhhhhhhhhhh"
+	    "app_author":"1165ea01-61aa-4a8e-a869-e6273fc87046",
+            "app_name":"hhhhhhhhhhhhhhhhh",
         }
     ]
 }
