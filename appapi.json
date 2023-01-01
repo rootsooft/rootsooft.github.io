@@ -1,7 +1,7 @@
  {
     "ALL_IN_ONE_VIDEO": [
         {
-            "status": -1,
+            "status": 1,
             "message": "Invalid sign salt."
         }
     ]
