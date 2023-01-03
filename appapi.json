@@ -24,7 +24,15 @@
             "app_update_desc": "مقاطع فيديو ومقالب شفا بدون نت",
             "app_update_status": "true",
             "cancel_update_status": "true"
-
+            "native_ad": "xxxxxxxx",
+            "native_ad_type": "xxxxxxxx",
+            "native_ad_id": "xxxxxxxx",
+            "native_facebook_id": "xxxxxxxx",
+            "interstital_facebook_id": "xxxxxxxx",
+            "interstital_ad_type": "xxxxxxxx",
+            "banner_facebook_id": "xxxxxxxx",
+            "banner_ad_type": "xxxxxxxx",
+            "package_name": "xxxxxxxx"
 
 
         }
