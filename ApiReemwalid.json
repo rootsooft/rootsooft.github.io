@@ -22,7 +22,7 @@
             "app_update_desc": "تنزيل النسخة الجديدة من التطبيق",
             "app_update_status": "true",
             "cancel_update_status": "true",
-            "android_ad_network": "admob",
+            "android_ad_network": "xadmob",
             "banner_unity_id": "xxxxxxxx",
             "banner_applovin_id": "xxxxxxxx",
             "interstitial_unity_id": "xxxxxxxx",
