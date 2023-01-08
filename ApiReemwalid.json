@@ -24,6 +24,8 @@
             "cancel_update_status": "true",
             "android_ad_network": "admob",
             "banner_unity_id": "xxxxxxxx",
+            "ad_counter": "1",
+            " interstitial_Click": "7",
             "banner_applovin_id": "xxxxxxxx",
             "interstitial_unity_id": "xxxxxxxx",
             "interstitial_applovin_id": "xxxxxxxx",
