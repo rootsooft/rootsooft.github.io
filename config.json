@@ -31,7 +31,7 @@
       "unity_interstitial_placement_id": "video",
       "applovin_banner_unit_id": "0",
       "applovin_interstitial_unit_id": "0",
-      "interstitial_ad_interval": 2
+      "interstitial_ad_interval": 5
     }
   ],
   "socials": [
