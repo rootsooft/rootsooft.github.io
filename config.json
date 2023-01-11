@@ -18,13 +18,13 @@
   ],
   "ads": [
     {
-      "ad_status": "off",
+      "ad_status": "on",
       "ad_type": "admob",
       "admob_publisher_id": "pub-7630632790167516",
-      "admob_banner_unit_id": "ca-app-pub-7630632790167516/8370090861",
-      "admob_interstitial_unit_id": "ca-app-pub-7630632790167516/7057009199",
-      "admob_native_unit_id": "ca-app-pub-7630632790167516/3405554708",
-      "admob_app_open_unit_id": "ca-app-pub-7630632790167516/3670112733",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
       "startapp_app_id": 0,
       "unity_game_id": 4089993,
       "unity_banner_placement_id": "banner",
@@ -37,8 +37,8 @@
   "socials": [
     {
       "social_name": "Website",
-      "social_icon": "https://soundfm.com.br/assets/img/android-img/site.png",
-      "social_url": "https://soundfm.com.br/"
+      "social_icon": "https://play-lh.googleusercontent.com/RWUUYHY3fQuYTTg2Hlz8CAYt1s894v54jiAAJyEQk-MQlur2QUrYuimMGEE_KKg4lnk",
+      "social_url": "https://www.hespress.com/"
     },
     {
       "social_name": "Facebook",
