@@ -1,11 +1,11 @@
 {
-  "radio": [
+  "home": [
     {
-      "radio_name": "Sound FM",
-      "radio_genre": "Ecletica",
-      "radio_url": "http://nohttps.soundfm.com.br:6752/;",
-      "radio_image_url": "https://soundfm.com.br/assets/img/android-img/radio-image.png",
-      "background_image_url": "https://soundfm.com.br/assets/img/android-img/radio-background.jpg"
+      "home_name": "Test App",
+      "home_genre": "Desc",
+      "home_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone;",
+      "home_image_url": "https://play-lh.googleusercontent.com/0omvWnnuxkjzEmCYsQfSLqhvd-kpY_hHBH-FMTmL9cauCo8-YGMlxox4TaTtmpD71Eo=w240-h480-rw",
+      "background_image_url": "https://play-lh.googleusercontent.com/h__gB_a0fF4OT2p9d7gxZs8Ug9sx8VYaFBa8ZKG87E28PbFUSPP9biwARfuvbT0eK8Q=w526-h296-rw"
     }
   ],
   "settings": [
@@ -19,7 +19,7 @@
   "ads": [
     {
       "ad_status": "on",
-      "ad_type": "admob",
+      "ad_type": "startapp",
       "admob_publisher_id": "pub-7630632790167516",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
