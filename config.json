@@ -34,26 +34,13 @@
       "interstitial_ad_interval": 5
     }
   ],
-  "socials": [
+ "update": [
     {
-      "social_name": "Website",
-      "social_icon": "https://soundfm.com.br/assets/img/android-img/site.png",
-      "social_url": "https://soundfm.com.br/"
-    },
-    {
-      "social_name": "Facebook",
-      "social_icon": "https://soundfm.com.br/assets/img/android-img/facebook.png",
-      "social_url": "https://facebook.com/soundfm.com.br/"
-    },
-    {
-      "social_name": "Twitter",
-      "social_icon": "https://soundfm.com.br/assets/img/android-img/twitter.png",
-      "social_url": "https://twitter.com/radiosoundfm/"
-    },
-    {
-      "social_name": "Instagram",
-      "social_icon": "https://soundfm.com.br/assets/img/android-img/instagram.png",
-      "social_url": "https://instagram.com/soundfm.com.br/"
+      "app_new_version": "22",
+      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "app_update_desc": "تنزيل النسخة الجديدة من التطبيق"
+      "app_update_status": "true",
+      "cancel_update_status": "true",
     }
   ]
 }
