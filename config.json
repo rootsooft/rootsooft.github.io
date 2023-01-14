@@ -41,6 +41,8 @@
       "app_update_desc": "تنزيل النسخة الجديدة من التطبيق"
       "app_update_status": "true",
       "cancel_update_status": "true",
+   }
+  ],
    "socials": [
     {
       "social_name": "Website",
