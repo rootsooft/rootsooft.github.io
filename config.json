@@ -34,11 +34,14 @@
       "interstitial_ad_interval": 5
     }
   ],
-  "socials": [
+  "update": [
     {
-      "social_name": "Website",
-      "social_icon": "https://play-lh.googleusercontent.com/RWUUYHY3fQuYTTg2Hlz8CAYt1s894v54jiAAJyEQk-MQlur2QUrYuimMGEE_KKg4lnk",
-      "social_url": "https://www.hespress.com/"
+      "app_new_version": "22",
+      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "app_update_desc": "تنزيل النسخة الجديدة من التطبيق"
+      "app_update_status": "true",
+      "cancel_update_status": "true",
+
     },
     {
       "social_name": "Facebook",
