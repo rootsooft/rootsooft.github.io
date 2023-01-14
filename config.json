@@ -18,7 +18,7 @@
   ],
   "ads": [
     {
-      "ad_status": "off",
+      "ad_status": "on",
       "ad_type": "admob",
       "admob_publisher_id": "pub-7630632790167516",
       "admob_banner_unit_id": "ca-app-pub-7630632790167516/8370090861",
