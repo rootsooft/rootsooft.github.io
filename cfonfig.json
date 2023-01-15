@@ -1,0 +1,46 @@
+{
+  "home": [
+    {
+      "home_name": "Test App",
+      "home_genre": "Desc",
+      "home_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone;",
+      "home_image_url": "https://play-lh.googleusercontent.com/0omvWnnuxkjzEmCYsQfSLqhvd-kpY_hHBH-FMTmL9cauCo8-YGMlxox4TaTtmpD71Eo=w240-h480-rw",
+      "background_image_url": "https://play-lh.googleusercontent.com/h__gB_a0fF4OT2p9d7gxZs8Ug9sx8VYaFBa8ZKG87E28PbFUSPP9biwARfuvbT0eK8Q=w526-h296-rw"
+    }
+  ],
+  "settings": [
+    {
+      "onesignal_app_id": "1165ea01-61aa-4a8e-a869-e6273fc87046",
+      "fcm_notification_topic": "your_single_radio_topic",
+      "privacy_policy_url": "https://privacydevwh.blogspot.com/2021/12/privacy-policy.html",
+      "more_apps_url": "https://play.google.com/store/apps/developer?id=REEMDEV"
+    }
+  ],
+  "ads": [
+    {
+      "ad_status": "on",
+      "ad_type": "admob",
+      "admob_publisher_id": "pub-7630632790167516",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
+      "startapp_app_id":211652261,
+      "unity_game_id": 4089993,
+      "unity_banner_placement_id": "banner",
+      "unity_interstitial_placement_id": "video",
+      "applovin_banner_unit_id": "da17eff31ae69f15",
+      "applovin_interstitial_unit_id": "98f6a586ed642919",
+      "interstitial_ad_interval": 5
+    }
+  ],
+  "update": [
+    {
+      "app_new_version": "22",
+      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "app_update_desc": "تنزيل النسخة الجديدة من التطبيق"
+      "app_update_status": "true",
+      "cancel_update_status": "true",
+    }
+  ]
+}
