@@ -39,6 +39,15 @@
       "interstitial_ad_interval": 5
     }
   ],
+   "update": [
+    {
+      "app_new_version": "22",
+      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "app_update_desc": "تنزيل النسخة الجديدة من التطبيق"
+      "app_update_status": "true",
+      "cancel_update_status": "true",
+    }
+  ],
   "socials": [
     {
       "social_name": "Website",
