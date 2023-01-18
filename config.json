@@ -1,11 +1,11 @@
 {
   "home": [
     {
-      "appUpdateVersion": "Sound FM",
-      "appUpdateUrl": "Ecletica",
-      "appUpdateDesc": "http://nohttps.soundfm.com.br:6752/;",
-      "isAppUpdate": "https://soundfm.com.br/assets/img/android-img/radio-image.png",
-      "isAppUpdateCancel": "https://soundfm.com.br/assets/img/android-img/radio-background.jpg"
+      "appUpdateVersion": "22",
+      "appUpdateUrl": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "appUpdateDesc": "New Update",
+      "isAppUpdate": "true",
+      "isAppUpdateCancel": "true"
     }
   ],
   "settings": [
