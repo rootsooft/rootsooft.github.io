@@ -1,11 +1,11 @@
 {
   "home": [
     {
-      "radio_name": "Sound FM",
-      "radio_genre": "Ecletica",
-      "radio_url": "http://nohttps.soundfm.com.br:6752/;",
-      "radio_image_url": "https://soundfm.com.br/assets/img/android-img/radio-image.png",
-      "background_image_url": "https://soundfm.com.br/assets/img/android-img/radio-background.jpg"
+      "appUpdateVersion": "Sound FM",
+      "appUpdateUrl": "Ecletica",
+      "appUpdateDesc": "http://nohttps.soundfm.com.br:6752/;",
+      "isAppUpdate": "https://soundfm.com.br/assets/img/android-img/radio-image.png",
+      "isAppUpdateCancel": "https://soundfm.com.br/assets/img/android-img/radio-background.jpg"
     }
   ],
   "settings": [
