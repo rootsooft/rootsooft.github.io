@@ -1,11 +1,11 @@
 {
   "radio": [
     {
-      "new_app_version": "22",
-      "app_link": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
-      "app_update_desc": "New Update",
-      "update_status": "true",
-      "cancel_status": "true"
+      "appUpdateVersion": "22",
+      "appUpdateUrl": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+      "appUpdateDesc": "New Update",
+      "isAppUpdate": "true",
+      "isAppUpdateCancel": "true"
     }
   ],
   "settings": [
