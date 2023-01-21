@@ -24,7 +24,7 @@
   "ads": [
     {
       "ad_status": "on",
-      "ad_type": "applovin",
+      "ad_type": "admob",
       "admob_publisher_id": "pub-7630632790167516",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
