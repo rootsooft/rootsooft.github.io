@@ -17,14 +17,14 @@
       "new_app_version": "22",
       "app_link": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
       "app_update_desc": "New Update Online",
-      "update_status": "true",
-      "cancel_status": "true"
+      "update_status": "false",
+      "cancel_status": "false"
     }
   ],
   "ads": [
     {
       "ad_status": "on",
-      "ad_type": "applovin",
+      "ad_type": "admob",
       "admob_publisher_id": "pub-7630632790167516",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
