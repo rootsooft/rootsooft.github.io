@@ -18,5 +18,12 @@
 "Icon":"https://rootsooft.github.io/ads3.png",
 "Package":"com.reemdev.three",
  "NumberCoin":7,
+"Description":"تطبيق تفاعلي جداب وأنيق"},
+ {"AID":"4",
+"Name":"لعبة شفا و سوسو تتصل بك",
+"Link_To_App":"",
+"Icon":"https://rootsooft.github.io/ads4.png",
+"Package":"com.reemdev.shafacall",
+ "NumberCoin":8,
 "Description":"تطبيق تفاعلي جداب وأنيق"},]
 
