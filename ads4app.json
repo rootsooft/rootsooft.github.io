@@ -32,5 +32,12 @@
 "Icon":"https://rootsooft.github.io/ads5.png",
 "Package":"com.reemdev.qosaycallcall",
  "NumberCoin":9,
+"Description":"تطبيق تفاعلي جداب وأنيق"},
+{"AID":"6",
+"Name":"لعبة سامر المدني يتصل بك",
+"Link_To_App":"",
+"Icon":"https://rootsooft.github.io/ads6.png",
+"Package":"com.reemdev.samercall",
+ "NumberCoin":10,
 "Description":"تطبيق تفاعلي جداب وأنيق"},]
 
