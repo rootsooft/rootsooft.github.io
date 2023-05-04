@@ -39,5 +39,12 @@
 "Icon":"https://rootsooft.github.io/ads6.png",
 "Package":"com.reemdev.samercall",
  "NumberCoin":10,
+"Description":"تطبيق تفاعلي جداب وأنيق"},
+{"AID":"7",
+"Name":"ديانا وروما فيديو بدون نت",
+"Link_To_App":"",
+"Icon":"https://rootsooft.github.io/ads7.png",
+"Package":"com.reemdev.dinaroma",
+ "NumberCoin":11,
 "Description":"تطبيق تفاعلي جداب وأنيق"},]
 
