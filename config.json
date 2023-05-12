@@ -36,7 +36,24 @@
       "unity_interstitial_placement_id": "video",
       "applovin_banner_unit_id": "fce47dc6109dead5",
       "applovin_interstitial_unit_id": "51a714683030352f",
-      "interstitial_ad_interval": 5
+            "interstitial_ad_interval": 5,
+      "ad_status_new": "on",
+      "ad_type_new": "admob",
+      "ad_network": "admob",
+      "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
+      "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
+      "admob_inter": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native": "ca-app-pub-3940256099942544/2247696110",
+      "facebook_small_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_medium_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_inter": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_native": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "applovin_small_banner": "YOUR_PLACEMENT_ID",
+      "applovin_medium_banner": "YOUR_PLACEMENT_ID",
+      "applovin_inter": "YOUR_PLACEMENT_ID",
+      "applovin_native": "YOUR_PLACEMENT_ID",
+      "startapp_app_id_new": "0",
+      "inter_clicks": 3
     }
   ],
   "socials": [
