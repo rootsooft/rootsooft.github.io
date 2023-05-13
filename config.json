@@ -18,8 +18,8 @@
       "app_link": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
       "app_update_desc": "New Update Online",
       "update_status": "false",
-      "cancel_status": "false"
-       "ad_status": "on",
+      "cancel_status": "false",
+      "ad_status": "on",
       "ad_type": "admob",
       "admob_publisher_id": "pub-9760311877159894",
       "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
