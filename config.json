@@ -2,7 +2,7 @@
 
   "settings": [
     {
- "ad_status": "on",
+      "ad_status": "on",
       "ad_network": "admob",
       "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
       "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
@@ -17,8 +17,11 @@
       "applovin_inter": "YOUR_PLACEMENT_ID",
       "applovin_native": "YOUR_PLACEMENT_ID",
       "startapp_app_id": "0",
+      "unity_game_id": "0",
+      "banner_unity_id": "0",
+      "interstitial_unity_id": "0",
       "inter_clicks": 3
-      
+
     }
   ]
 }
