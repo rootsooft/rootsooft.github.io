@@ -3,11 +3,48 @@
 {
     "HD_VIDEO": [
         {
-            "status": 1,
-            "apiKey": "viaviweb"
-			"message": "Invalid sign salt."
-			"package_name": "com.example.hdvideosapps"
-
+            "status": -1,
+            "message": "Invalid sign salt."
+			"app_name": "قصي ووليد الغابر",
+            "app_logo": "https://rootsooft.github.io/ads2.png",
+            "app_version": "Version 12.0.3",
+            "app_author": "Reemdev",
+            "app_contact": "1165ea01-61aa-4a8e-a869-e6273fc87046",
+            "app_email": "info@reemdev.com",
+            "app_website": "http://www.reemdev.com/",
+            "app_description": "",
+            "app_developed_by": "RootSoft",
+            "app_privacy_policy": "",
+            "publisher_id": "pub-9456493320432553",
+            "interstital_ad": "true",
+            "interstital_ad_id": "ca-app-pub-3940256099942544/1033173712",
+            "banner_ad": "true",
+            "banner_ad_id": "ca-app-pub-3940256099942544/6300978111",
+            "interstital_ad_click": "5",
+            "app_new_version": "22",
+            "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
+            "app_update_desc": "تنزيل النسخة الجديدة من التطبيق",
+            "app_update_status": "true",
+            "cancel_update_status": "true",
+            "android_ad_network": "admob",
+            "banner_unity_id": "xxxxxxxx",
+            "ad_counter": "1",
+            " interstitial_Click": "7",
+            "appadd_active": "0",
+            "banner_applovin_id": "da17eff31ae69f15",
+            "interstitial_unity_id": "xxxxxxxx",
+            "interstitial_applovin_id": "98f6a586ed642919",
+            "start_ads_id": "xxxxxxxx",
+            "unity_game_id": "xxxxxxxx",
+            "native_applovin_id": "xxxxxxxx",
+            "native_ad": "xxxxxxxx",
+            "native_ad_type": "xxxxxxxx",
+            "native_ad_id": "xxxxxxxx",
+            "interstital_ad_type": "xxxxxxxx",
+            "banner_ad_type": "xxxxxxxx",
+            "package_name": "com.reemdev.staisione"
+			
+			
         }
     ]
 }
