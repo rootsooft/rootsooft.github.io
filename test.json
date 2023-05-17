@@ -1,7 +1,7 @@
  {
     "HD_VIDEO": [
         {
-      "app_name": "on",
+      "app_name": "test",
       "app_logo": "https://rootsooft.github.io/ad1.png",
       "app_version": "22.0.3",
       "app_author": "REEMDEV",
@@ -11,12 +11,34 @@
       "app_description": "Reemdev ®. All rights Reserved",
       "app_developed_by": "xxxxxxxx",
       "app_privacy_policy": "banner",
+      "ad_status": "on",
+      "inter_status": "off",
+      "native_status": "off",
+      "ad_network": "admob",
+      "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
+      "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
+      "admob_inter": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native": "ca-app-pub-3940256099942544/2247696110",
+      "admob_publisher_id": "pub-3940256099942544",
+      "facebook_small_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_medium_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_inter": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_native": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "applovin_small_banner": "YOUR_PLACEMENT_ID",
+      "applovin_medium_banner": "YOUR_PLACEMENT_ID",
+      "applovin_inter": "YOUR_PLACEMENT_ID",
+      "applovin_native": "YOUR_PLACEMENT_ID",
+      "startapp_app_id": "208651629work",
+      "unity_game_id": "4613148",
+      "banner_unity_id": "0",
+      "interstitial_unity_id": "0",
       "publisher_id": "pub-3940256099942544",
       "interstital_ad": "true",
       "interstital_ad_id": "ca-app-pub-3940256099942544/1033173712",
       "banner_ad": "false",
       "banner_ad_id": "ca-app-pub-3940256099942544/6300978111",
-      "interstital_ad_click": 5
+      "interstital_ad_click": 5,
+      "inter_clicks": 3
         }
     ]
 }
