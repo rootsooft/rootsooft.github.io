@@ -35,7 +35,7 @@
       "publisher_id": "pub-3940256099942544",
       "interstital_ad": "true",
       "interstital_ad_id": "ca-app-pub-3940256099942544/1033173712",
-      "banner_ad": "false",
+      "banner_ad": "on",
       "banner_ad_id": "ca-app-pub-3940256099942544/6300978111",
       "interstital_ad_click": 5,
       "inter_clicks": 3
