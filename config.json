@@ -2,9 +2,8 @@
 
   "settings": [
     {
-      "ad_status": "on",
-      "inter_status": "off",
-      "native_status": "off",
+      "ad_status": "oo",
+      "inter_status": "on",
       "ad_network": "admob",
       "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
       "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
