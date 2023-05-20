@@ -1,14 +1,6 @@
 {
-  "update": [
-    {
-      "new_app_version": "22",
-      "app_link": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
-      "app_update_desc": "New Update",
-      "update_status": "true",
-      "cancel_status": "true"
-    }
-  ],
-  "ads": [
+
+  "settings": [
     {
       "ad_status": "on",
       "inter_status": "on",
@@ -18,7 +10,6 @@
       "admob_inter": "ca-app-pub-3940256099942544/1033173712",
       "admob_native": "ca-app-pub-3940256099942544/2247696110",
       "admob_publisher_id": "pub-3940256099942544",
-      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
       "facebook_small_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
       "facebook_medium_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
       "facebook_inter": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
@@ -31,14 +22,6 @@
       "unity_game_id": "4613148",
       "banner_unity_id": "0",
       "interstitial_unity_id": "0",
-      "app_version": "22.0.3",
-      "app_author": "REEMDEV",
-      "app_contact": "Email",
-      "app_email": "devmailw@gmail.com",
-      "app_website": "www.reemdev.com",
-      "app_description": "Reemdev ®. All rights Reserved",
-      "app_developed_by": "xxxxxxxx",
-      "app_privacy_policy": "banner",
       "inter_clicks": 3
     }
   ]
