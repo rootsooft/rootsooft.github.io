@@ -17,7 +17,7 @@
   "ads": [
     {
       "ad_status": "on",
-      "big_ad_status": "on",
+      "big_ad_status": "off",
       "inter_status": "on",
       "ad_network": "admob",
       "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
