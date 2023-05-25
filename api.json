@@ -1,44 +1,28 @@
-{
-  "update": [
-    {
-      "app_new_version": "33",
-      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
-      "app_update_desc": "حمله الآن من منصة جوجل بلاي",
-      "app_update_status": "false",
-      "cancel_update_status": "false"
-    }
-  ],
-  "settings": [
-    {
-      "onesignal_app_id": "03acb109-36b0-4ef8-919d-ff4512c31dde"
-     
-    }
-  ],
-  "ads": [
-    {
-      "ad_status": "on",
-      "big_ad_status": "on",
-      "inter_status": "on",
-      "ad_network": "admob",
-      "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
-      "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
-      "admob_inter": "ca-app-pub-3940256099942544/1033173712",
-      "admob_native": "ca-app-pub-3940256099942544/2247696110",
-      "admob_publisher_id": "pub-3940256099942544",
-      "facebook_small_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_medium_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_inter": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_native": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "applovin_small_banner": "da17eff31ae69f15",
-      "applovin_medium_banner": "da17eff31ae69f15",
-      "applovin_inter": "98f6a586ed642919",
-      "applovin_native": "87343269587e8998",
-      "startapp_app_id": "208651629work",
-      "unity_game_id": "4613148",
-      "banner_unity_id": "0",
-      "interstitial_unity_id": "0",
-      "inter_clicks": 3
-      
-    }
-  ]
-}
+[{"AID":"1",
+"Name":"فيديو شفا وسوسو بدون نت",
+"Link_To_App":"32aac18e-47f5-4dc4-9ee6-538063f32496",
+ "Icon":"https://rootsooft.github.io/om1.png",
+"Package":"chafaa.com.oumouma",
+"NumberCoin":5,
+ "Description":"تطبيق تفاعلي جداب وأنيق"},
+{"AID":"2",
+"Name":"فيديو شفا و سوسو بدون نت",
+"Link_To_App":"",
+"Icon":"https://rootsooft.github.io/om2.png",
+"Package":"chafaa2.com.oumouma",
+ "NumberCoin":6,
+"Description":"تطبيق تفاعلي جداب وأنيق"},
+{"AID":"3",
+"Name":"مقاطع فيديو ديانا روما بدون نت",
+"Link_To_App":"",
+"Icon":"https://play-lh.googleusercontent.com/cf3mVxIrslONioikuHQ6BxehgJ8DwDG-QXwfGROfMhKvTZxWfYGyIEnVTDP7v3WGrg=w240-h480-rw",
+"Package":"dianaroma.com.oumouma",
+ "NumberCoin":7,
+"Description":"تطبيق تفاعلي جداب وأنيق"},
+ {"AID":"4",
+"Name":"مقاطع فيديو ناستيا ستايسي",
+"Link_To_App":"",
+"Icon":"https://play-lh.googleusercontent.com/kN9tz8RiIpvLlwMyDjjDQhZp9bOfd6650onw1YeC_nM8UBCW1yQkwBI4Zk_gqpqHgw=w240-h480-rw",
+"Package":"natsyastaysi.com.oumouma",
+ "NumberCoin":8,
+"Description":"تطبيق تفاعلي جداب وأنيق"},]
