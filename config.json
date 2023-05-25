@@ -4,14 +4,14 @@
       "app_new_version": "33",
       "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
       "app_update_desc": "حمله الآن من منصة جوجل بلاي",
-      "app_update_status": "false",
-      "cancel_update_status": "false"
+      "app_update_status": "true",
+      "cancel_update_status": "true"
     }
   ],
   "settings": [
     {
       "onesignal_app_id": "03acb109-36b0-4ef8-919d-ff4512c31dde"
-     
+
     }
   ],
   "ads": [
@@ -38,7 +38,7 @@
       "banner_unity_id": "0",
       "interstitial_unity_id": "0",
       "inter_clicks": 3
-      
+
     }
   ]
 }
