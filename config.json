@@ -1,44 +1,59 @@
 {
-  "update": [
+  "radio": [
     {
-      "app_new_version": "33",
-      "app_redirect_url": "https://play.google.com/store/apps/details?id=com.reemdev.vone",
-      "app_update_desc": "حمله الآن من منصة جوجل بلاي",
-      "app_update_status": "true",
-      "cancel_update_status": "true"
+      "radio_name": "Sound FM",
+      "radio_genre": "Ecletica",
+      "radio_url": "http://nohttps.soundfm.com.br:6752/;",
+      "radio_image_url": "https://soundfm.com.br/assets/img/android-img/radio-image.png",
+      "background_image_url": "https://soundfm.com.br/assets/img/android-img/radio-background.jpg"
     }
   ],
   "settings": [
     {
-      "onesignal_app_id": "03acb109-36b0-4ef8-919d-ff4512c31dde"
-
+      "onesignal_app_id": "b952198b-bec5-455a-878c-baeb22042fed",
+      "fcm_notification_topic": "your_single_radio_topic",
+      "privacy_policy_url": "https://soundfm.com.br/privacy",
+      "more_apps_url": "https://play.google.com/store/apps/dev?id=5440679515016640386"
     }
   ],
   "ads": [
     {
-      "ad_status": "on",
-      "big_ad_status": "on",
-      "inter_status": "on",
-      "ad_network": "admob",
-      "admob_small_banner": "ca-app-pub-3940256099942544/6300978111",
-      "admob_medium_banner": "ca-app-pub-3940256099942544/6300978111",
-      "admob_inter": "ca-app-pub-3940256099942544/1033173712",
-      "admob_native": "ca-app-pub-3940256099942544/2247696110",
-      "admob_publisher_id": "pub-3940256099942544",
-      "facebook_small_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_medium_banner": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_inter": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "facebook_native": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "applovin_small_banner": "da17eff31ae69f15",
-      "applovin_medium_banner": "da17eff31ae69f15",
-      "applovin_inter": "98f6a586ed642919",
-      "applovin_native": "87343269587e8998",
-      "startapp_app_id": "208651629work",
-      "unity_game_id": "4613148",
-      "banner_unity_id": "0",
-      "interstitial_unity_id": "0",
-      "inter_clicks": 3
-
+      "ad_status": "off",
+      "ad_type": "admob",
+      "admob_publisher_id": "pub-7630632790167516",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+      "admob_app_open_unit_id": "ca-app-pub-7630632790167516/3670112733",
+      "startapp_app_id": 204425496,
+      "unity_game_id": 4089993,
+      "unity_banner_placement_id": "banner",
+      "unity_interstitial_placement_id": "video",
+      "applovin_banner_unit_id": "781dbc69cc014a5e",
+      "applovin_interstitial_unit_id": "80d0709565e1129c",
+      "interstitial_ad_interval": 2
+    }
+  ],
+  "socials": [
+    {
+      "social_name": "Website",
+      "social_icon": "https://soundfm.com.br/assets/img/android-img/site.png",
+      "social_url": "https://soundfm.com.br/"
+    },
+    {
+      "social_name": "Facebook",
+      "social_icon": "https://soundfm.com.br/assets/img/android-img/facebook.png",
+      "social_url": "https://facebook.com/soundfm.com.br/"
+    },
+    {
+      "social_name": "Twitter",
+      "social_icon": "https://soundfm.com.br/assets/img/android-img/twitter.png",
+      "social_url": "https://twitter.com/radiosoundfm/"
+    },
+    {
+      "social_name": "Instagram",
+      "social_icon": "https://soundfm.com.br/assets/img/android-img/instagram.png",
+      "social_url": "https://instagram.com/soundfm.com.br/"
     }
   ]
 }
