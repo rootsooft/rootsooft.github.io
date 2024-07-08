@@ -6,7 +6,7 @@
       
   },
     "AppSettings": {
-    "promate_home"       : true,
+    "promate_home"       : 0,
     "privacy_link":      "https://sites.google.com/view/reemdev",
     "video_link" :       "https://rootsooft.github.io/apps/developers/reemdv/vone/ads4absdv.json"
   },
