@@ -5,13 +5,13 @@
     "redirect_link":          "https://play.google.com/store/apps/details?id=on00.app.enaldinho"
   },
     "AppSettings": {
-    "adHome_Banner":          "1",
-    "adStar_Banner":          "1",
-    "adSettings_Banner":      "1",
-    "adMainOffline_Banner":   "1",
-    "adPlayOffline_Banner":   "1",
-    "adMainOnline_Banner":    "1",
-    "adPlayOnline_Banner":    "1",
+    "adHome_Banner":          "0",
+    "adStar_Banner":          "0",
+    "adSettings_Banner":      "0",
+    "adMainOffline_Banner":   "0",
+    "adPlayOffline_Banner":   "0",
+    "adMainOnline_Banner":    "0",
+    "adPlayOnline_Banner":    "0",
     "privacy_link":           "https://sites.google.com/view/reemdev",
     "video_link" :            "https://rootsooft.github.io/apps/developers/reemdv/vone/ads4absdv.json"
   },
