@@ -6,7 +6,7 @@
   },
   
     "AppSettings": {
-    "promate_home"       : false,
+    "promate_home"       : true,
     "privacy_link": "https://chaturusaapplicationprivacypolicy.blogspot.com/2023/02/privacy-policy.html"
   },
   
