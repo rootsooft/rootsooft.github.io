@@ -1,11 +1,11 @@
 {
     "AppsPromote": [
     {
-      "name"        : "Call bts",
-      "packageName" : "com.JiminCalls.Bts.LiveChatCall.jin",
-      "icon"        : "https://play-lh.googleusercontent.com/ZiKDk0F8I2qSvSJj_et-hUhs28tOVoCk-55HBrn445ZG_jOks9ZZKso1s-zJ_cdijWA=w240-h480",
-      "preview"     : "https://lh3.googleusercontent.com/HbUxUjsj8kGK7i6dr_-cqEKegbHmkAzgH_rwIUna3lwglAVaN0WUfqizcwH3eJ7SRgc=w416-h235",
-      "shortDescription": "start chat messenger 💬 with bts",
+      "name"        : "تطبيق فيديو شفا بدون نت",
+      "packageName" : "com.reemdev.vone",
+      "icon"        : "https://play-lh.googleusercontent.com/FQEXu7KMOrEDRpR-hco7CG_nFVaChBKl5SOJ5tFYa05FiMU2CQRN3bgSYBb3tAxRNLo=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/AhGGc5qP5yCBSRyq58PlHd9nx-nOH6vQtfCdxt3WfR4wC_pVvdDRKGB28Xbs57Fsm3o=w416-h235-rw",
+      "shortDescription": "بالمجان",
       "screenShot"  : [
         "",
         "",
@@ -13,11 +13,11 @@
       ]
     },
      {
-      "name"        : "Call vlad",
-      "packageName" : "com.nikiCalls.fondo.LiveChatCall.vlad",
-      "icon"        : "https://play-lh.googleusercontent.com/E0VI_QYAKKhuje3CInrl0I5jtdXz0bsPo8a1SY3iEhchOILzOYkaBvbP3NGDafay4Oc=w240-h480",
-      "preview"     : "https://play-lh.googleusercontent.com/Gs8AI0ZBPWC-Sdf7QLxYrCvv43ssu8rSkP3FNOlNx5oPWRuVprv-loATIMJtaLUq6yM=w416-h235",
-      "shortDescription": "say Hey 👋 to vlad",
+      "name"        : "قصي ووليد الغابر بدون نت",
+      "packageName" : "com.reemdev.vtwo",
+      "icon"        : "https://play-lh.googleusercontent.com/qzKRwOpjQ8n6gRWRzdRi8Er6VzGFITSoVKb4bzG7cCoGWeF0ONEYqBH8-JC0cbgl6K4R=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/Iop84yW235jyb1lXr4Qac9WqVP2-1CM-eSElyI_ahEMEm3evLgZGR8Ur8QOiDy2TIQA=w416-h235-rw",
+      "shortDescription": "بالمجان",
       "screenShot"  : [
         "",
         "",
