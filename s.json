@@ -5,7 +5,7 @@
     "redirect_link": "https://play.google.com/store/apps/details?id=on00.app.enaldinho"
   },
     "AppSettings": {
-    "promate_home"       : true,
+    "promate_home"       : false,
     "privacy_link":      "https://sites.google.com/view/reemdev",
     "video_link" :       "https://rootsooft.github.io/apps/developers/reemdv/vone/ads4absdv.json"
   },
