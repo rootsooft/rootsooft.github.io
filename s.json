@@ -9,7 +9,7 @@
     "adStar_Banner":          "1",
     "adSettings_Banner":      "1",
     "adMainOffline_Banner":   "1",
-    "adPlayOffline_Banner":   "0",
+    "adPlayOffline_Banner":   "1",
     "adMainOnline_Banner":    "0",
     "adPlayOnline_Banner":    "0",
     "privacy_link":           "https://sites.google.com/view/reemdev",
