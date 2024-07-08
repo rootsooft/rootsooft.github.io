@@ -4,19 +4,14 @@
     "status"       : false,
     "redirect_link": "https://play.google.com/store/apps/details?id=on00.app.enaldinho"
   },
-  
     "AppSettings": {
     "promate_home"       : true,
     "privacy_link":      "https://sites.google.com/view/reemdev",
     "video_link" :       "https://rootsooft.github.io/apps/developers/reemdv/vone/line.json"
-
   },
-  
+    
   "AdsController": {
-      
     "readMe"                  : "you can use : admob or facebook or applovin or promote",
-    
-    
     "BannerNetwork"           : "admob",
     "InterstitialNetwork"     : "facebook",
     "RewardNetwork"           : "admob",
