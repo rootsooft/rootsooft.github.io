@@ -1,0 +1,80 @@
+{
+    "AppsPromote": [
+    {
+      "name"        : "Call bts",
+      "packageName" : "com.JiminCalls.Bts.LiveChatCall.jin",
+      "icon"        : "https://play-lh.googleusercontent.com/ZiKDk0F8I2qSvSJj_et-hUhs28tOVoCk-55HBrn445ZG_jOks9ZZKso1s-zJ_cdijWA=w240-h480",
+      "preview"     : "https://lh3.googleusercontent.com/HbUxUjsj8kGK7i6dr_-cqEKegbHmkAzgH_rwIUna3lwglAVaN0WUfqizcwH3eJ7SRgc=w416-h235",
+      "shortDescription": "start chat messenger 💬 with bts",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
+    },
+     {
+      "name"        : "Call vlad",
+      "packageName" : "com.nikiCalls.fondo.LiveChatCall.vlad",
+      "icon"        : "https://play-lh.googleusercontent.com/E0VI_QYAKKhuje3CInrl0I5jtdXz0bsPo8a1SY3iEhchOILzOYkaBvbP3NGDafay4Oc=w240-h480",
+      "preview"     : "https://play-lh.googleusercontent.com/Gs8AI0ZBPWC-Sdf7QLxYrCvv43ssu8rSkP3FNOlNx5oPWRuVprv-loATIMJtaLUq6yM=w416-h235",
+      "shortDescription": "say Hey 👋 to vlad",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name"        : "Chat with Lisa",
+      "packageName" : "com.Lisa.chatMata.videoCall.BlackPink",
+      "icon"        : "https://play-lh.googleusercontent.com/iQ_Q-s0smKsiVSqstSrLCqgUfoj5HSFEqOiroynerbzpz2Cqkemu0OCUOgG0N4ujOf4=w240-h480",
+      "preview"     : "https://lh3.googleusercontent.com/J0SQshDhdomHbp2y38xkSqW9ophEr-EZkFBrIV2twPLlxU1Jy2plPQZa5xDzKouyF_Q=w416-h235",
+      "shortDescription": "Make call 📞 to Lisa",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
+    },
+    
+    {
+      "name"        : "Call Ronaldo",
+      "packageName" : "com.videocall.Cr7Chat.CristianoAlnassr.Ronaldo",
+      "icon"        : "https://play-lh.googleusercontent.com/oRNgt5AR0_ESxmiwpsmYqyyXUagpdXHqZZMxpXerTgMmEgkPb-IJ6mnRL7QhwvKlXDE=w240-h480",
+      "preview"     : "https://play-lh.googleusercontent.com/Gs8AI0ZBPWC-Sdf7QLxYrCvv43ssu8rSkP3FNOlNx5oPWRuVprv-loATIMJtaLUq6yM=w416-h235",
+      "shortDescription": "say Hey 👋 to cristiano",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name"        : "Chat with Nastya",
+      "packageName" : "com.sandraCalls.LikeNastya.LiveChatCall.nastya",
+      "icon"        : "https://play-lh.googleusercontent.com/COGsQeGMADzIDtb3TpSuXWmarA0kBn2uRETGsSy_HYA7yoZkdwYegfVaWHBt8k3eVHU=w240-h480",
+      "preview"     : "https://lh3.googleusercontent.com/5RQIt4yP6MHEWAW5Byupr7VckvB9nFFemHt1o_ZKwNHctIr-hJkR8sXHQx51UJacppg=w416-h235",
+      "shortDescription": "Make call 📞 to nastya",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
+    }
+    
+  ],
+    
+  "YoutubePromote": [
+    {
+      "title"        : "FUNNY CHALLENGE 🤩",
+      "icon"         :"https://yt3.googleusercontent.com/3eUCMW9bm58QSodERr7fGL5TPb2rQ3Z6DGluB_1Spg3UD-GBToYKueBvuuxRya27XX6DueFHpQ=s176-c-k-c0x00ffffff-no-rj",
+      "preview"      : "https://i.ytimg.com/vi_webp/L90nShCP7PU/maxresdefault.webp",
+      "preview-small": "https://i.ytimg.com/vi_webp/L90nShCP7PU/maxresdefault.webp",
+      "watch"        : "https://youtu.be/_ghlgrWd2rg",
+      "channel"      : "https://youtu.be/_ghlgrWd2rg",
+      "Description"  : "We loved making challenge \n between your characters into popular games"
+    }
+  ]
+  
+  
+}
