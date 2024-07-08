@@ -1,8 +1,8 @@
 {
     
   "AppRedirect": {
-    "status"       : false,
-    "redirect_link": "https://play.google.com/store/apps/details?id=on00.juega.german"
+    "status"       : true,
+    "redirect_link": "https://play.google.com/store/apps/details?id=on00.app.enaldinho"
   },
   
     "AppSettings": {
