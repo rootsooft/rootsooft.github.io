@@ -8,6 +8,8 @@
     "AppSettings": {
     "promate_home"       : true,
     "privacy_link": "https://sites.google.com/view/reemdev"
+    "video_URL" : "https://rootsooft.github.io/apps/developers/reemdv/vone/line.json"
+
   },
   
   "AdsController": {
