@@ -19,12 +19,12 @@
     
   "AdsController": {
     "readMe"                  : "you can use : admob or facebook or applovin or promote",
-    "BannerNetwork"           : "admob",
-    "InterstitialNetwork"     : "admob",
-    "RewardNetwork"           : "admob",
-    "NativeNetwork"           : "admob",
+    "BannerNetwork"           : "facebook",
+    "InterstitialNetwork"     : "facebook",
+    "RewardNetwork"           : "facebook",
+    "NativeNetwork"           : "facebook",
     
-    "IntervalClick"           : 5,
+    "IntervalClick"           : 1,
     
     "AdMob_Banner"            : "ca-app-pub-3940256099942544/6300978111",
     "AdMob_InterstitialAd"    : "ca-app-pub-3940256099942544/1033173712",
