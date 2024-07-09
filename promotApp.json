@@ -50,11 +50,11 @@
       ]
     },
     {
-      "name"        : "Chat with Nastya",
-      "packageName" : "com.sandraCalls.LikeNastya.LiveChatCall.nastya",
-      "icon"        : "https://play-lh.googleusercontent.com/COGsQeGMADzIDtb3TpSuXWmarA0kBn2uRETGsSy_HYA7yoZkdwYegfVaWHBt8k3eVHU=w240-h480",
-      "preview"     : "https://lh3.googleusercontent.com/5RQIt4yP6MHEWAW5Byupr7VckvB9nFFemHt1o_ZKwNHctIr-hJkR8sXHQx51UJacppg=w416-h235",
-      "shortDescription": "Make call 📞 to nastya",
+      "name"        : "قصي يتصل بك",
+      "packageName" : "com.reemdev.qosaycallcall",
+      "icon"        : "https://play-lh.googleusercontent.com/t-CVVJGbJdDXL4t2GRdIVp38LvI9eYfl4M1K4Vtzju_7DTrIZMIg4bvFgXHdYs2A7Q=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/TTJO2KjgE0niNycRBfPG67wAaLFmgKaeewbeAYWdZOu4zTvNmoghMX5q0iH_O2kGnOY=w416-h235-rw",
+      "shortDescription": "بالمجان",
       "screenShot"  : [
         "",
         "",
