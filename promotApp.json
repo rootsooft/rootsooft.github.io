@@ -38,11 +38,11 @@
     },
     
     {
-      "name"        : "Call Ronaldo",
-      "packageName" : "com.videocall.Cr7Chat.CristianoAlnassr.Ronaldo",
-      "icon"        : "https://play-lh.googleusercontent.com/oRNgt5AR0_ESxmiwpsmYqyyXUagpdXHqZZMxpXerTgMmEgkPb-IJ6mnRL7QhwvKlXDE=w240-h480",
-      "preview"     : "https://play-lh.googleusercontent.com/Gs8AI0ZBPWC-Sdf7QLxYrCvv43ssu8rSkP3FNOlNx5oPWRuVprv-loATIMJtaLUq6yM=w416-h235",
-      "shortDescription": "say Hey 👋 to cristiano",
+      "name"        : "شفا تتصل بك",
+      "packageName" : "com.reemdev.shafacall",
+      "icon"        : "https://play-lh.googleusercontent.com/F-FesxvH4VMCHKLa5KbQHK2ZA4xIOfTfYBlgTcA-udp5CtUakoY-V4sNzwxadTH-Foc=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/XSdzKlYEwAm9_KqrJZy9qTHeDZ7BOYh0-U3V3x4Z2G38mdc06WhVX7d_vG6863zM8g=w416-h235-rw",
+      "shortDescription": "بالمجان",
       "screenShot"  : [
         "",
         "",
