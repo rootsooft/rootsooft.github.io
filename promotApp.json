@@ -84,6 +84,18 @@
         "",
         ""
       ]
+    },
+    {
+      "name"        : "ستايسي فيديو بدون نت",
+      "packageName" : "com.reemdev.staysi",
+      "icon"        : "https://play-lh.googleusercontent.com/MT2GO5pMcRRNWI5FiEUwXXYx8NLT9r3VGgogGVYRtvV2WuzgMQz-M9TdZicrac7L4mI=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/oksMLU2tYEfMaoG9GAi3fttFckyWKsyLP7Orib_ud66JZzfkIySRaH8jP2q9fwdiB27I=w416-h235-rw",
+      "shortDescription": "بالمجان",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
     }
     
   ],
