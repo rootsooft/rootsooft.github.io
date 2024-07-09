@@ -72,6 +72,18 @@
         "",
         ""
       ]
+    },
+    {
+      "name"        : "ديانا وروما فيديو",
+      "packageName" : "com.reemdev.dinaroma",
+      "icon"        : "https://play-lh.googleusercontent.com/Qe3Kkam1dETf9V81F0Tm0egkdbtSTWYgwLTLf2Gp8fUpEV-gxPbluq1NYTRupfRPpg=w240-h480-rw",
+      "preview"     : "https://play-lh.googleusercontent.com/YBhuoKV7JGR-0X4pkXBHjbURvvDHcfpZPVLRd8H8wh4isUtVCXDYGdIzjchRI4Lx4Dz0=w416-h235-rw",
+      "shortDescription": "بالمجان",
+      "screenShot"  : [
+        "",
+        "",
+        ""
+      ]
     }
     
   ],
