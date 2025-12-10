@@ -1,5 +1,3 @@
-<script type='text/javascript'>
-//<![CDATA[
 (function() {
   var Util,
     __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
@@ -193,6 +191,3 @@ wow = new WOW(
   }
 );
 wow.init();
-
-//]]>
-</script>
