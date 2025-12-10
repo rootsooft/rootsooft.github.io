@@ -1,0 +1,291 @@
+/* -----------------------------------
+   Root Variables
+----------------------------------- */
+:root {
+  --main-line: #e6e6e6; /* استبدل اللون حسب ما تريد */
+}
+
+/* -----------------------------------
+   Error Section
+----------------------------------- */
+.ErrorSection {
+  border: 1px solid var(--main-line);
+  padding: 20px;
+  text-align: center;
+}
+.ErrorSection h2 {
+  color: #222;
+  margin: 38px 0 50px;
+  font-size: 64px;
+}
+.ErrorSection span {
+  display: block;
+}
+.ErrorSection span i {
+  font-size: 110px;
+  color: #d24949;
+}
+.ErrorSection p {
+  color: #777;
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* -----------------------------------
+   RootSoft Viewers + Breaking News
+----------------------------------- */
+.rootsoftviewers .loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcvxeVVAckUspada4fK1VVSUXL6EqLix9boKtirFV87xFOK-G1mSWP1PE3GjDLsvnVEHNFHhwbUgOThR94y0OubfaJnUD7pebUaYp6ZcjlPO5PmfxMd54r25CxqvcPjLS-l88c2XYpOETCE4bnxhip-OyX3LHY58CnSy-KluAWLK_rQXbPy6x04y_OrQKj/s320/F5nQxSs.gif)
+    no-repeat 0 0;
+  vertical-align: middle;
+}
+
+.rootsoftviewers {
+  margin: 0;
+  color: #333;
+  padding: 0;
+  font-family: 'Exo', sans-serif;
+  cursor: default;
+  font-weight: 100;
+  transition: 0.3s;
+  float: right;
+  width: 330px;
+}
+
+#breakingnews {
+  margin: 15px 0 0;
+  margin-right: 15px;
+  height: 42px;
+  line-height: 29px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+#breakingnews .breakhead {
+  position: absolute;
+  background: #444;
+  color: #fff;
+  font-size: 13px;
+  padding: 5.4px 22px;
+  text-transform: uppercase;
+}
+
+#adbreakingnews {
+  float: left;
+  margin-left: 75px;
+  margin-top: 6px;
+}
+
+#adbreakingnews ul,
+#adbreakingnews li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#adbreakingnews li a {
+  font-weight: 400;
+  color: #666;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+#adbreakingnews li a:hover {
+  color: #359bed;
+}
+
+/* -----------------------------------
+   Responsiveness (Media Queries)
+----------------------------------- */
+@media (max-width: 640px) {
+  #breakingnews {
+    margin: 20px 0 0;
+    margin-right: 0;
+  }
+  #breakingnews .breakhead {
+    padding: 6.5px 14px;
+  }
+  #adbreakingnews {
+    margin-left: 50px;
+  }
+}
+
+/* Width 970px */
+@media (max-width: 970px) {
+  #outer-wrapper,
+  #menu-inner {
+    width: 660px;
+  }
+  #sidebar-wrapper {
+    float: right;
+    width: 648px;
+  }
+  #topads .widget-content {
+    border-width: 3px;
+    margin-left: 12px;
+    width: 640px;
+  }
+}
+
+/* Width 680px */
+@media (max-width: 680px) {
+  #header-inner img {
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .thumcont { height: 220px; }
+  .post-home { height: 360px; width: 100%; }
+  .relatedp { width: 100%; }
+
+  .firstinfo { display: none; }
+
+  .post-body img {
+    background: #fff;
+    height: auto;
+    max-width: 100%;
+    margin: 0 0 0 10px;
+    padding: 0.5px;
+    transition: 0.6s;
+  }
+}
+
+/* -----------------------------------
+   Ads Under Post
+----------------------------------- */
+.adsunderf {
+  margin-bottom: 0;
+  width: 100%;
+}
+.adsunderf span {
+  float: none;
+  padding: 8px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------------
+   Paging Fixes
+----------------------------------- */
+.urls { float: right; width: 100%; }
+
+.firstad {
+  height: 250px;
+  float: right;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#blog-pager,
+.post,
+.comments,
+.rootsoft-pager {
+  margin-left: 0 !important;
+}
+
+.lastpage,
+.firstpage {
+  display: none;
+}
+
+.firstnum a,
+.lastnum a {
+  display: block;
+}
+
+.showpageOf {
+  border-left: none;
+  font-size: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+
+/* 420px */
+@media (max-width: 420px) {
+  .thumcont { height: 150px; }
+  .post-home { height: 300px; }
+}
+
+/* 603px */
+@media (max-width: 603px) {
+  .post-body img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .post-body img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+  #sidebar-wrapper {
+    float: right;
+    width: 100%;
+  }
+}
+
+/* -----------------------------------
+   Sidebar & Newsletter
+----------------------------------- */
+.post-title {
+  display: block;
+  font-size: 20px;
+  padding: 20px 5px;
+  text-align: center;
+}
+
+#sidebar-newsletter {
+  background: #446faa;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+#footer-subscribe-email {
+  background: #fff;
+  color: #888;
+  padding: 8px 34px 8px 0;
+  width: 62%;
+  border: none;
+  margin-top: 17px;
+}
+
+#footer-subscribe-btn {
+  background: #fc5400;
+  color: #fff;
+  padding: 7px 10px;
+  font-size: 14px;
+  border: none;
+}
+#footer-subscribe-btn:hover {
+  background: #444;
+}
+
+/* -----------------------------------
+   User-select Fixes
+----------------------------------- */
+body {
+  user-select: none !important;
+}
+.post-body blockquote,
+.post-body pre,
+.post-body code {
+  user-select: text !important;
+}
+
+/* روابط — ملاحظة: هذه كانت داخل تعليق HTML
+   ولا تعمل في CSS لذلك تم إزالتها
+*/
