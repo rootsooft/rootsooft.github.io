@@ -1,0 +1,166 @@
+/* =========================================
+   HEADER + NAVBAR STYLES
+   ========================================= */
+
+/* Header Section */
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 240px;
+  max-width: 90%;
+  float: right;
+}
+
+#Header1 {
+  width: 40%;
+}
+
+#Header1 img {
+  margin: -3px -19px;
+  padding: 0 20px;
+}
+
+/* Banner */
+#banner {
+  text-align: center;
+  width: 745px;
+  margin: 10px auto;
+}
+
+/* Navbar General */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #343434;
+  border: none;
+}
+
+.nvbar-top {
+  background: #343434;
+  margin-bottom: 0;
+}
+
+/* Mobile Navbar */
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #343434 !important;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFF;
+  font-weight: 600;
+  padding: 0;
+  height: 40px;
+}
+
+/* Navbar collapse region */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #D64738;
+}
+
+/* Links inside navbar */
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF;
+  font-family: "Droid Arabic Naskh";
+  font-size: 12px;
+  font-weight: 300;
+  padding: 9px 11px;
+  border-top: 2px solid #555;
+}
+
+/* Hover effect */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background: #444444;
+  border-top-color: #FC5400;
+}
+
+/* Active link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #FFF;
+  background-color: #343434;
+}
+
+/* Dropdown menu */
+.navbar .dropdown-menu {
+  padding: 0;
+  right: 0;
+  text-align: right;
+}
+
+.navbar .dropdown-menu > li > a {
+  padding: 7px 20px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  background: #FC5400;
+  color: #FFF;
+}
+
+/* Search box inside navbar */
+#searchthis .form-control {
+  transition: 0.25s ease-in-out;
+  width: 130px;
+  border: none;
+  background: #FFF;
+}
+
+#searchthis .form-control:focus {
+  width: 170px;
+  box-shadow: none;
+}
+
+#searchthis button {
+  background: #446FAA;
+  border: none;
+  color: #FFF;
+}
+
+/* Indicators on mobile */
+@media (max-width: 767px) {
+  #bs-example-navbar-collapse-1 {
+    background: #444;
+    margin-top: 12px;
+  }
+
+  #searchthis button {
+    border-right: 1px solid #CCAD98;
+    width: 20%;
+  }
+
+  #searchthis .form-control {
+    width: 80% !important;
+  }
+
+  .navbar-toggle {
+    margin-left: 15px;
+  }
+
+  .navbar-inverse .navbar-brand {
+    max-width: 75%;
+    float: none !important;
+  }
+}
+
+/* Desktop navbar layout */
+@media (min-width: 768px) {
+  #bs-example-navbar-collapse-1 {
+    float: left;
+    width: 67%;
+  }
+
+  #bs-example-navbar-collapse-1 .navbar-nav {
+    background: #555;
+    float: left;
+  }
+
+  .navbar-header {
+    float: right;
+  }
+}
