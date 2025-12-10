@@ -1,0 +1,165 @@
+/* =========================================
+   SIDEBAR + WIDGETS STYLE
+   ========================================= */
+
+/* Sidebar general widget container */
+#sidebar .widget {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #cccccc inset;
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding: 9px;
+}
+
+/* Sidebar widget titles */
+#sidebar h2 {
+  background-color: #446FAA;
+  color: #fff;
+  font-size: 14px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 0 15px 0;
+  position: relative;
+  text-align: center;
+}
+
+#sidebar h2::before {
+  background-color: #FC5400;
+  content: "\f1cb";
+  display: block;
+  position: absolute;
+  font: 24px/34px fontawesome;
+  height: 34px;
+  width: 34px;
+}
+
+#sidebar h2::after {
+  color: #446FAA;
+  content: "\f0dd";
+  display: block;
+  font: 30px fontawesome;
+  position: absolute;
+  width: 100%;
+  margin-top: -22px;
+}
+
+/* Popular Posts widget */
+.PopularPosts .widget-content ul li {
+  position: relative;
+  padding: 0;
+  margin: 10px auto;
+  background: #f3f5f7;
+  border: 1px solid #e7e8ea;
+  transition: all 0.3s ease-out;
+}
+
+.PopularPosts .item-thumbnail {
+  float: right;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+#PopularPosts1 img {
+  width: 72px;
+  height: 72px;
+  transition: all .4s linear;
+}
+
+#PopularPosts1 img:hover {
+  transform: scale(1.2);
+}
+
+.PopularPosts .item-title {
+  color: #525f6a;
+  font-size: 12px;
+  padding: 5px;
+}
+
+/* Labels widget (list mode) */
+.list-label-widget-content ul {
+  padding: 0;
+}
+
+.list-label-widget-content ul li {
+  list-style: none;
+  padding: 0;
+}
+
+.list-label-widget-content ul li a {
+  display: block;
+  padding: 8px 5px;
+  color: #777;
+  border-bottom: 1px solid;
+}
+
+.list-label-widget-content ul li a:before {
+  font-family: FontAwesome;
+  content: "\f0a5";
+  margin-left: 5px;
+}
+
+/* Cloud Labels widget */
+.cloud-label-widget-content {
+  text-align: right;
+  padding: 10px;
+}
+
+.cloud-label-widget-content span a {
+  background-color: #DDD;
+  color: #111;
+  padding: 5px 15px;
+}
+
+.cloud-label-widget-content span a:hover {
+  background-color: #f13b3b;
+  color: #fff;
+}
+
+/* Sidebar tabs widget */
+.tabs-widget {
+  background-color: #000;
+  height: 36px;
+  list-style: none;
+  padding: 0;
+}
+
+.tabs-widget li {
+  float: right;
+  width: 33.3%;
+  height: 100%;
+}
+
+.tabs-widget li a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tabs-widget li a:hover,
+.tabs-widget li a.tabs-widget-current {
+  background-color: #446FAA;
+}
+
+.tabs-widget-current::after {
+  content: "\f0d7";
+  font: 26px fontawesome;
+  position: absolute;
+  width: 100%;
+  top: 21px;
+}
+
+/* Recent Posts Thumbnail Widget */
+#label_with_thumbs li {
+  list-style: none;
+  min-height: 65px;
+  padding: 9px 0 0;
+  border-bottom: 1px solid #eee;
+}
+
+img.label_thumb {
+  float: left;
+  margin-right: 10px !important;
+  width: 75px;
+  height: 75px;
+}
