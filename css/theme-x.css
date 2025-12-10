@@ -1,3 +1,4 @@
+<style> 
 .ErrorSection{border:1px solid $(main.line);padding:20px;text-align:center}
 .ErrorSection h2{color:#222222;margin:38px 0 50px;font-size:64px}
 .ErrorSection span{display:block}
@@ -16,9 +17,11 @@
 #breakingnews {margin:20px 0 0 0;margin-right:0;}
 #breakingnews .breakhead {padding:6.5px 14px;}
 #adbreakingnews {margin-left:50px;}
-
+</style>
+  
+<style>  
 @media screen and (max-width : 970px) {
 #outer-wrapper,#menu-inner {width: 660px;}
 #sidebar-wrapper {float: right; width: 648px;}
 #topads .widget-content {border-width: 3px; margin-left: 12px; width: 640px;}
- 
+</style>
