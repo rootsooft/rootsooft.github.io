@@ -1,0 +1,148 @@
+/* =========================================
+   LAYOUT STRUCTURE — GENERAL TEMPLATE LAYOUT
+   ========================================= */
+
+/* Layout mode in Blogger editor */
+body#layout {
+  margin-left: 5px;
+  display: table;
+}
+
+body#layout #content {
+  float: right;
+  width: 530px;
+}
+
+body#layout #side-bar {
+  float: left;
+  width: 250px;
+}
+
+body#layout #content-wrapper,
+body#layout .container {
+  float: left;
+  width: 800px;
+}
+
+body#layout ul.nav li {
+  display: none;
+}
+
+body#layout .navbar-header {
+  width: 250px;
+  float: right;
+}
+
+body#layout #bs-example-navbar-collapse-1 {
+  background-color: #E3E3E3;
+  width: 497px;
+  height: 120px;
+  border: 1px solid #ccc;
+  float: left;
+  overflow: visible;
+  padding: 4px;
+}
+
+/* Footer columns */
+body#layout #footx1,
+body#layout #footx2,
+body#layout #footx3 {
+  float: right;
+  width: 200px;
+}
+
+body#layout #footx4 {
+  float: left;
+  width: 198px;
+}
+
+body#layout #footer-wrapper {
+  padding: 20px 0;
+  overflow: visible;
+  background: #DA3E3E;
+  color: #fff;
+  width: 800px;
+  display: inline-block;
+}
+
+/* Core page grid */
+.row {
+  margin: 0px -4px;
+}
+
+[class*="col-"] {
+  padding: 0px 4px;
+  float: right;
+}
+
+.b-sidebar,
+.b-main {
+  display: table-column;
+}
+
+.b-header {
+  margin-top: 50px;
+}
+
+/* Header */
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 240px;
+  max-width: 90%;
+  float: right;
+}
+
+#banner {
+  text-align: center;
+  width: 745px;
+  margin: 10px auto;
+}
+
+/* Wrapper containers */
+.sidebar .widget,
+.post-outer,
+.b-header,
+#lhtml {
+  background: #FFF;
+  padding: 10px;
+  border: 1px solid #DEDCDC;
+  margin-bottom: 15px;
+}
+
+.sidebar:hover .widget:hover,
+.post-outer:hover,
+.b-header:hover,
+#lhtml:hover {
+  background: #F8F8F8;
+}
+
+.widget-content {
+  clear: both;
+  padding: 0;
+}
+
+/* Search box layout */
+#searchthis {
+  margin-left: 0;
+  padding-left: 2px;
+}
+
+.search-div {
+  padding-left: 2px;
+  margin-left: 0;
+}
+
+/* Ads layout */
+.adscolumn {
+  width: 933px;
+  padding: 10px 3px;
+  background: #fff;
+  margin: 5px 10px 0px 10px;
+  text-align: center;
+  border: 1px solid #C0C0C0;
+}
+
+.adscolumn .widget {
+  /* Reserved slot */
+}
