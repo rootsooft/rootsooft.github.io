@@ -1,0 +1,2150 @@
+/* Extracted from <b:skin> — Electro Khalid */
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ContactForm, .ContactForm .title {
+ display: none;}
+
+/* BSkin-SECTION: FLOATING CONTACT: أزرار الاتصال العائمة (واتساب، اتصال) */
+.floating-ct {
+ position: fixed;
+ width: 250px;
+ right: 0;
+ bottom: 0;
+ z-index: 999;}
+
+/* BSkin-SECTION: FLOATING CONTACT: أزرار الاتصال العائمة (واتساب، اتصال) */
+.floating-ct-head a {
+ padding: 5px 10px;
+ background: #09f;
+ color: white;
+ font-weight: bold;
+ display: inline-block;
+ *display: block;
+ zoom: 1;}
+
+/* BSkin-SECTION: FLOATING CONTACT: أزرار الاتصال العائمة (واتساب، اتصال) */
+.floating-ct-body {
+ height: 285px;
+ background: white;
+ border: 1px solid #09f;
+ padding: 10px;
+ display: none;}
+
+/* BSkin-SECTION: FLOATING CONTACT: أزرار الاتصال العائمة (واتساب، اتصال) */
+.floating-ct-head {
+ text-align: right;}
+
+/* BSkin-SECTION: FLOATING CONTACT: أزرار الاتصال العائمة (واتساب، اتصال) */
+.floating-ct-body .ContactForm {
+ margin: 0;
+ display: block!important;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.list-label-widget-content ul li {
+list-style: none;
+padding: 0;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.list-label-widget-content ul {
+padding: 0;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.list-label-widget-content ul li a {
+display: block;
+padding: 8px 5px;
+border-bottom: 0;
+color: #777;
+border-bottom: 1px solid;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.list-label-widget-content ul li a:before {
+display: inline-block;
+width: 20px;
+
+content: "\f0a5";
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.Label span {
+display: none;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.cloud-label-widget-content span {
+display: inline-block;
+font-size: 100% !important;
+min-height: 30px;
+line-height: 2em;
+margin-bottom: 5px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.cloud-label-widget-content span a {
+background-color: #DDD;
+color: #111;
+padding: 5px 15px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.cloud-label-widget-content span a:hover {
+background-color: #f13b3b;
+color: #fff;
+text-decoration: none;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.widget-content.cloud-label-widget-content {display:inline-block;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {font-size:100%;opacity:1}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.cloud-label-widget-content{text-align:right;padding:10px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.label-count {white-space:nowrap;display:inline-block;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li{position:relative;background:#fff;color:#444;padding:0;margin:0;text-align:right;width:100%;transition:all .3s ease-out}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:hover {background:#fff;color:#cf4d35;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:before {content:"";position:absolute;width:0;height:100%;background:#4fafe9;transition:all .2s ease-in-out;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:hover:before {width:100%;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li a{padding:0 0 0 20px;display:block;position:relative;line-height:42px;color:#787878;text-decoration:none;transition:all .3s ease-out}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li a:hover {color:#fff;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li span{float:right;height:42px;line-height:42px;width:42px;text-align:center;display:inline-block;background:#4fafe9;color:#FFF;position:absolute;top:0;right:0;z-index:2}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(1) span,#sidebar-wrapper .Label li:nth-child(1):before,#sidebar-wrapper .Label li:nth-child(7) span,#sidebar-wrapper .Label li:nth-child(7):before {background:#ca85ca;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(2) span,#sidebar-wrapper .Label li:nth-child(2):before,#sidebar-wrapper .Label li:nth-child(8) span,#sidebar-wrapper .Label li:nth-child(8):before {background:#e54e7e;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(3) span,#sidebar-wrapper .Label li:nth-child(3):before,#sidebar-wrapper .Label li:nth-child(9) span,#sidebar-wrapper .Label li:nth-child(9):before {background:#61c436;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(4) span,#sidebar-wrapper .Label li:nth-child(4):before,#sidebar-wrapper .Label li:nth-child(10) span,#sidebar-wrapper .Label li:nth-child(10):before {background:#f4b23f;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(5) span,#sidebar-wrapper .Label li:nth-child(5):before,#sidebar-wrapper .Label li:nth-child(11) span,#sidebar-wrapper .Label li:nth-child(11):before {background:#46c49c;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .Label li:nth-child(6) span,#sidebar-wrapper .Label li:nth-child(6):before,#sidebar-wrapper .Label li:nth-child(12) span,#sidebar-wrapper .Label li:nth-child(12):before {background:#607ec7;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .label-size{position:relative;display:block;float:left;margin:0 4px 4px 0;font-size:13px;transition:all 0.3s;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .label-size a{background:#4fafe9;display:inline-block;color:#fff;padding:5px 8px;font-weight:400;transition:all .3s}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .label-count{backface-visibility:hidden;opacity:0;visibility:hidden;font-size:85%;display:inline-block;position:absolute;top:-5px;right:-10px;background:#fff;color:#3b91c5;border:1px solid #4fafe9;white-space:nowrap;padding:0;width:25px;height:22px;line-height:22px;border-radius:4px;text-align:center;z-index:1;transition:all .3s}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .label-size:hover .label-count{opacity:1;visibility:visible;right:-15px}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#sidebar-wrapper .label-size a:hover{background:#45a1d8;color:#fff;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adsunderf {
+display: none!important;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc inset;
+display: block;
+height: 100px;
+list-style: outside none none;
+margin: 20px 0 20px 12px !important;
+overflow: hidden;
+padding: 0 !important;
+position: relative;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager li {
+height: 100px;
+margin: 0;
+overflow: hidden;
+padding: 0;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .next {
+float: right;
+width: 50%;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .previous {
+float: left;
+width: 50%;
+box-shadow: 1px 0 0 #bbb;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager a {
+display: block;
+height: 100px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .fa.fa-angle-right {
+color: #fff;
+font-size: 40px;
+margin-right: 5px;
+margin-top: -6px;
+position: absolute;
+right: 0;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .fa.fa-angle-left {
+color: #fff;
+font-size: 40px;
+left: 0;
+margin-left: 5px;
+margin-top: -6px;
+position: absolute;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager strong{
+background-color: #444444;
+color: #fff;
+display: block;
+height: 30px;
+line-height: 30px;
+text-align: center;
+transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .older-link strong {background-color: #446FAA;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager li:hover .older-link strong ,.rootsoft-pager li:hover .newer-link strong{
+background-color: #FC5400;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager span {
+color: #444444 !important;
+display: block;
+font-size: 13px;
+height: 59px;
+line-height: 2.3em;
+padding: 5px;
+text-align: center;
+transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .previous span {background-color: #FFF;margin: 0 0 0 1px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoft-pager .next span {margin:0 1px 0 0;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav {background:#fff;clear:both;margin:-5px 0 10px;margin-top:10px;padding:5px;text-align:center;font-size:13px;font-family:'Open Sans';font-weight:700;border-radius:3px;border:1px solid #eceeee;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav span,.pagenav a {padding:6px 12px;display:inline-block;background-color:#446FAA;color:#fff;margin-left:2px;margin-right:2px;border-radius:3px;transition:all .5s linear;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav .pages {background-color:#446FAA;color:#fff;transition:all .2s linear;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav a:hover {background-color:#000;color:#fff;transition:all .2s linear;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav .current {background-color:#FC5400;color:#fff;transition:all .2s linear;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.pagenav .pages {display:none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adsunderf {
+float: right;
+margin-bottom: 0px;
+width: 640px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adsunderf .adsun1 {float: right;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adsunderf .adsun2 {float: left;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adsunderf span {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc;
+display: block;
+height: 250px;
+margin-bottom: 20px;
+margin-left: 13px;
+overflow: hidden;
+position: relative;
+overflow: hidden;
+padding: 0px;
+width: auto;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post h3.post-title.entry-title:hover{-webkit-transition: all .4s ease-out; -moz-transition: all .4s ease-out; -o-transition: all .4s ease-out; transition: all .4s ease-out;background: #3E4557;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title.entry-title:before{display:none;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title.entry-title:before{
+  content: "\f123";
+  display: inline-block;
+  font: 20px fontawesome;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-right: 0px;
+  color: #fff;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title.entry-title:hover{-webkit-transition: all .4s ease-out; -moz-transition: all .4s ease-out; -o-transition: all .4s ease-out; transition: all .4s ease-out;background: #3E4557;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title.entry-title a{color:#FFF;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title.entry-title a:hover{-webkit-transition:all .7s;-moz-transition:all .7s;-o-transition:all .7s;transition:all .7s;margin-right:10px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing {margin:0 auto 20px;position :relative;text-align:right;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing a{width : 32px;height:32px;display :inline-block;line-height:34px;color:#fff!important;text-align:center;border-radius:100%;-webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing a:hover {box-shadow: 0px 0px 18px 18px rgba(80, 80, 80, 0);
+-webkit-transform: translateY(-4px); transform: translateY(-4px);}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share{float :right;width : 100%;padding-left:20px;padding-right:25px;margin:0 auto;text-align:center}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share li,.post-sharing li{display :inline-block;font-size:15px}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+ul.post-sharing:before{content:'أنشر هذه التدوينة في : ';display :block;margin-bottom:10px}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share li a{position :relative;margin:0 1px 0 0;padding:4px 11px;line-height:2.2;font-weight:400;vertical-align:middle;color:#fff;font-size:16px;text-transform:uppercase;display :inline-block;transition:background-color .3s}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share .fa{padding:0 0 0 5px;top:1px;font-size:16px;position :relative}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share ul{list-style:none}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-share ul li{padding-bottom:3px;font-size:16px;font-family:'Karla',sans-serif;display :inline-block;margin-top:5px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-footer .post-share li a{color:#fff;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing .facebook-share,a.facebook.df-share{background-color:#3B5998;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing .twitter-share,a.twitter.df-share{background-color:#00ACED;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing .google-share,a.google.df-pluss{background-color:#D14836;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-sharing .whatsapp-share,a.whatsapp.df-share{background-color:#2AB200;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#shoternUrl {
+float: right;
+  height: 60px;
+  margin: 4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+input.textinpo {
+  float: left;
+  border: 1px solid #ooo;
+  padding: 4px;
+
+text-align: center;
+  color: #ooo;
+  margin-left: auto;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body img{background:#FFFFFF;max-width:100%;border:0;margin-bottom:2.0px;opacity:1;transition:all .6s ease;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body img {margin:0 0 0 10px;padding:0.5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout .add_widget {border:1px solid #ddd;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#layout .add_widget a {color:#444;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#layout:before {    content: 'RootSoft.com';
+    text-transform: uppercase;
+    font-size: 200px;
+    color: #999;
+    margin: 0 0 20px 0;
+    display: inline-block;
+    font-weight: 700;
+    padding: 20px;
+    font-family: sans-serif;
+    border: 4px double #FD856E;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body img {margin:0 0 0 10px;padding:0.5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout {margin-left:5px;display:table}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #content {float:right;width:530px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+body#layout #Contact Rootsoft {float:none;width:530px;overflow:hidden}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout .col-lg-6 {display: inline-block;width: 260px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #side-bar {float:left;width:250px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #content-wrapper, body#layout .container {float:left;width:800px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout ul.nav li {display:none}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+body#layout .navbar-header{width: 250px;float: right;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+body#layout #bs-example-navbar-collapse-1{background-color: #E3E3E3;width: 497px;height: 120px;border: 1px solid rgb(204, 204, 204);float: left;margin: 0 0 8px 0px;overflow: visible;padding: 4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #footx1{float: right;width: 200px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #footx2{float: right;width: 200px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #footx3{float: right;width: 200px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout #footx4{float:left;width:198px;}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper{padding:20px 0;overflow:visible;background: #DA3E3E;color: #fff;}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper .add_widget {background-color:#3695DB;border:none;}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper .add_widget a {color:#fff;}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper .footer-column{width:33.33%;float:right}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper #column1,#layout #footer-wrapper #column2{margin:0}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+body#layout #footer-wrapper {
+display: inline-block;
+margin: 0px;
+width: 800px;
+adscolumn{
+width:933px;                                                                      
+padding:10px 3px;
+background:#fff;
+margin:5px 10px 0px 10px;
+text-align:center;
+border:1px solid #C0C0C0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.adscolumn .widget{}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar .widget {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc inset;
+margin: 0 0 20px;
+overflow: hidden;
+padding: 9px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2::before {
+background-color: #FC5400;
+content: "\f1cb";
+display: block;
+position: absolute;
+font: 24px/34px fontawesome;
+height: 34px;
+width: 34px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2::after {
+color: #446FAA;
+content: "\f0dd";
+display: block;
+font: 30px fontawesome;
+margin-top: -22px;
+position: absolute;
+width: 100%;
+-webkit-margin-before: -19px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2 {
+background-color: #446FAA;
+color: #fff;
+font-size: 14px;
+height: 34px;
+line-height: 34px;
+margin: 0 0 15px 0;
+position: relative;
+text-align: center;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body#layout div#hidden-w{display: none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#layout,#layout .widget-content,#layout .add_widget {border:none;}
+
+type:none;overflow:hidden;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+#PopularPosts1 ul li .item-thumbnail{overflow:hidden;float :left;margin-right:10px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+#PopularPosts1 img {overflow:hidden;width : 72px;height:72px;-ms-transform: scale(1.0);-webkit-transform: scale(1.0);-moz-transform: scale(1.0);transform: scale(1.0);transition:all .4s linear;-moz-transition:all .4s linear;-webkit-transition:all .4s linear;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+#PopularPosts1 img:hover{-ms-transform: scale(1.2);-webkit-transform: scale(1.2);-moz-transform: scale(1.2);transform: scale(1.2);transition:all .4s linear;-moz-transition:all .4s linear;-webkit-transition:all .4s linear;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li{position :relative;padding:0;margin:10px auto;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:first-child {margin-top:0;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:last-child {margin-bottom:0;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(1){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(202,220,85,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(2){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(243,93,92,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(3){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(10,151,181,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(4){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(15,203,205,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(5){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(16,170,206,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(6){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(202,220,85,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(7){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(243,93,92,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(8){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(10,151,181,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(9){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(15,203,205,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:nth-child(10){background:#f3f5f7;border:1px solid #e7e8ea;border-right:2px solid rgba(16,170,206,0.8);width : 100%;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li a{color:#525f6a;transition:all 0.3s ease-out;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li a:hover{color:#446FAA;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content ul li:hover:nth-child(1),.PopularPosts .widget-content ul li:hover:nth-child(2),.PopularPosts .widget-content ul li:hover:nth-child(3),.PopularPosts .widget-content ul li:hover:nth-child(4),.PopularPosts .widget-content ul li:hover:nth-child(5),.PopularPosts .widget-content ul li:hover:nth-child(6),.PopularPosts .widget-content ul li:hover:nth-child(7),.PopularPosts .widget-content ul li:hover:nth-child(8),.PopularPosts .widget-content ul li:hover:nth-child(9),.PopularPosts .widget-content ul li:hover:nth-child(10){background:#fff;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .widget-content{background:#fff;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .item-thumbnail{float :right;padding:0;margin:0;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .item-title {color:#b2b5be;font-weight:400;font-size:12px;padding:5px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.PopularPosts .item-snippet {display :none;font-size:12px;color:#b2b5be;overflow:hidden;text-align:justify;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size {position :relative;text-transform:none;text-decoration:none;font-size:12px;font-family:&#39;ge_ss_threeregular&#39;;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size a {color:#525f6a;font-weight:400;padding:10px 12px;        margin:0 0 2px 2px;float :right;display :block;border:4px solid #eceef0;transition: all 0.4s ease-in-out;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-1 a {b
+ox-shadow:inset 2px 0 0 0 #1abc9c;opacity:0.8;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-1 a:hover {box-shadow:inset 100px 0 0 0 #1abc9c;color:#fff!important;opacity:1;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-2 a {box-shadow:inset 2px 0 0 0 #3498db;opacity:0.8;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-2 a:hover {box-shadow:inset 100px 0 0 0 #2980b9;color:#fff!important;opacity:1;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-3 a {box-shadow:inset 2px 0 0 0 #2ecc71;opacity:0.8;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-3 a:hover {box-shadow:inset 100px 0 0 0 #27ae60;color:#fff!important;opacity:1;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-4 a {box-shadow:inset 2px 0 0 0 #9b59b6;opacity:0.8;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-4 a:hover {box-shadow:inset 100px 0 0 0 #8e44ad;color:#fff!important;opacity:1;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-5 a {box-shadow:inset 2px 0 0 0 #446FAA;opacity:0.8;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size-5 a:hover {box-shadow:inset 100px 0 0 0 #c0392b;color:#fff!important;opacity:1;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.sidebar .label-size:hover{background:none;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {        font-size:100%;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.cloud-label-widget-content{text-align:right}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.label-size{display :block;float :right;margin:0 0 2px 2px;color:#fff;transition:all 0.4s ease-in-out;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.BlogArchive h2::before {content: "\f0c5" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.BlogArchive select {
+color: #555;
+font: 14px "droid arabic kufi",georgia;
+padding: 5px 0;
+width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.side-taps .widget h2 {display: none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget {
+background-color: #000;
+display: block;
+height: 36px;
+line-height: 36px;
+list-style: outside none none;
+margin: 0;
+padding: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget li {
+display: block;
+float: right;
+height: 100%;
+position: relative;
+width: 33.3%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget li a {
+color: #fff;
+display: block;
+font-size: 12px;
+font-weight: bold;
+height: 100%;
+width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget li a:hover, .tabs-widget li a.tabs-widget-current { background-color: #446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget-current::after {
+color: #446FAA;
+content: "\f0d7";
+display: block;
+font: 26px/36px fontawesome;
+position: absolute;
+text-align: center;
+top: 21px;
+width: 100%;
+z-index: 5;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget li a::before {
+float: right;
+font: 20px/36px fontawesome;
+margin: 0 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget #stab1 a::before {content: "\f004";}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget #stab2 a::before {content: "\f02c";}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget #stab3 a::before {content: "\f086";}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.side-taps .widget {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc inset;
+float: left;
+margin-bottom: 20px !important;
+width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.side-taps .widget-content {padding: 18px 9px 9px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-home.first {margin-left: 30px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.firstad {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc;
+height: 300px;
+left: 12px;
+overflow: hidden;
+position: absolute;
+width: 318px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post h2 {
+background-color: #446FAA;
+border: 1px dashed #fff;
+box-shadow: 0 0 0 4px #446FAA;
+color: #fff;
+display: block;
+font-weight: normal;
+min-height: 40px;
+line-height: 40px;
+margin: 20px 5px;
+padding: 0 10px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post h3 {
+background-color: #eee;
+border-bottom: 4px solid #FC5400;
+display: block;
+font-weight: normal;
+line-height: 38px;
+margin: 20px 0;
+min-height: 40px;
+padding: 0 10px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post h4::before {
+color: #4fba6e;
+content: "\f058";
+float: right;
+font: 22px fontawesome;
+margin-left: 5px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post h4 {
+color: #333;
+text-align: right !important;
+margin:20px 0;}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquote::before,blockquotc::before,blockquoth::before,blockquotb::before,blockquotw::before {
+color: #fff;
+font: bold 26px/34px serif;
+height: 34px;
+margin: 0 0 0 -10px;
+position: absolute;
+top: 0;
+width: 100%;}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotc::after,blockquoth::after,blockquotb::after,blockquotw::after {
+color: #fff;
+font: bold 14px/34px "droid arabic kufi",georgia;
+position: absolute;
+right: 5px;
+text-align: right;
+top: 0;
+width: 100%;}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquote,blockquotc,blockquoth,blockquotb,blockquotw {
+background-color: #333;
+color: #fff;
+direction: ltr !important;
+display: block;
+font: 14px/1.8em georgia;
+margin: 20px auto 5px;
+max-height: 300px;
+overflow: auto;
+padding: 40px 10px 10px;
+position: relative;
+text-align: left !important;
+width: 94%;}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquote {background-color: #eee !important;color: #444444 !important;}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquote::before {background-color: #446FAA; content: "\00a0 Code";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotc::before {background-color: #FC5400; content: "\00a0 CSS";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotc::after {content:"]]\003e\003c/b:skin\003e يضاف فوق";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquoth::before {background-color: #0065FD; content: "\00a0 JS";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquoth::after {content:"\003c/head\003e يضاف فوق";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotb::before {background-color: #4FBA6E; content: "\00a0 JS";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotb::after {content:"\003c/body\003e يضاف فوق";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotw::before {background-color: #F00004; content: "\00a0 HTML/JavaScript";}
+
+/* BSkin-SECTION: BLOCKQUOTE/CODE: تنسيقات الاقتباسات وكتل الكود */
+blockquotw::after {content:"يوضع في آداة";}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post ol{
+counter-reset:li;
+list-style: none;
+*list-style: decimal;
+margin-right:0;
+padding-right:0}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post ol li:before {
+background-color:#446FAA;
+color: #fff;
+content: counter(li, decimal);
+counter-increment: li;
+font: bold 14px serif;
+margin: 0 0 10px;
+padding: 5px 3px !important;
+position: absolute;
+right: -9px;
+text-align: right;
+text-indent: 6px;
+top: -5px;
+width: 20px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post ol li:after {
+border-color: transparent #446FAA transparent transparent;
+border-style: solid;
+border-width: 5px 5px 0 0;
+content: "";
+height: 0;
+position: absolute;
+right: 17px;
+top: -5px;
+width: 0;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post ol li{
+position:relative;
+margin:0 15px 20px 0 !important;
+padding:4px 10px 4px 5px !important;
+list-style:none;
+*list-style: decimal;
+border-bottom:1px solid #e2e3e2;
+background-color:#f2f2f2;
+text-indent:14px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+striks::after,qaz::after {
+background-color: #fff;
+color: #444444;
+content: "\f002";
+float: right;
+font: 16px fontawesome;
+height: 20px;
+margin-left: 5px;
+padding-left: 2px;
+text-align: center;
+width: 20px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+striks,qaz {
+background-color: #333;
+border: 2px solid #fff;
+box-shadow: 0 1px 1px 2px #000;
+color: #ffd600;
+direction: ltr;
+display: inline-block;
+font: bold 13px/18px arial;
+height: 20px;
+margin: 10px 5px;
+padding-left: 5px;
+text-align: center;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+strikk,wsx{
+border:1px solid gray;
+font:1.2em arial;
+display: inline-block;
+box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #cccccc, 0 2px 0 3px #444444;
+border-radius:3px;
+margin:10px 5px;
+padding:1px 5px;
+direction: ltr !important;
+text-align: center;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+strikl {
+background-color: #333;
+color: #fff;
+direction: ltr;
+display: inline-block;
+margin: 5px;
+padding: 0 5px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoftv::after {
+color:#000;
+content: "\f26c";
+display: block;
+font: 300px fontawesome;
+margin-top: -265px;
+position: relative;
+text-align: center;
+z-index: 1;
+-webkit-margin-before: -235px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoftv {
+height: 280px;
+margin-bottom: 80px;
+margin-top: 20px;
+max-width: 500px;
+position: relative;
+width: 90%;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.rootsoftv iframe {
+background-color: #fff;
+border: 1px solid #bbb;
+box-shadow: 0 0 0 10px #000;
+height: 280px;
+position: relative;
+width: 100% !important;
+z-index: 9;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML1 h2::before {content: "\f108" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML2 h2::before {content: "\f0c0" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML3 h2::before {content: "\f0c0" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML4 h2::before {content: "\f109" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML5 h2::before {content: "\f006" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML6 h2::before {content: "\f0e0" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML11 h2::before {content: "\f095" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML12 h2::before {content: "\f1fa" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#HTML13 h2::before {content: "\f232" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#topads .widget-content {
+background-color: #fff;
+border: 10px solid #fff;
+box-shadow: 0 0 0 1px #cccccc;
+height: 90px;
+margin: 0 auto 40px;
+overflow: hidden;
+width: 728px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.LinkList h2::before {content: "\f005" !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.LinkList ul {
+list-style: outside none none;
+margin: 0;
+padding: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.LinkList li a {
+background-color: #444444;
+box-shadow: 0 1px 0 4px #fff;
+color: #fff;
+display: block;
+float: right;
+height: 40px;
+line-height: 40px;
+margin-bottom: 5px;
+text-align: center;
+width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.LinkList li a:hover {background-color: #FC5400;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body ul{margin:0;padding:0}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.widget ul {line-height: 1.8;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-home {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc;
+height: 300px;
+margin-bottom: 20px;
+margin-left: 12px;
+overflow: hidden;
+position: relative;
+width: auto;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.labandcomm {
+background-color: #eee;
+border-top: 1px solid #ddd;
+bottom: 0;
+font-size: 12px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.comment-bubble::before {
+content: "\f086";
+float: left;
+font: 16px/30px fontawesome;
+margin: 0 4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.comment-bubble::after {
+color: #444444;
+content: "\f0da";
+float: right;
+font: 22px/30px fontawesome;
+margin-right: -7px;
+transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.comment-bubble:hover::after {color:#446FAA}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.comment-bubble {
+background-color: #444444;
+color: #fff;
+float: left;
+font: 12px/30px arial;
+height: 30px;
+text-align: left;
+width: 50px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.comment-bubble:hover {background-color: #446FAA; color:#fff;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm::before {
+content: "\f02c";
+float: right;
+font: 16px/30px fontawesome;
+margin: 0 5px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm a {color:#333;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm a:hover {color:#3e5b7e;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm::before {
+content: "\f02c";
+float: right;
+font: 16px/30px fontawesome;
+margin: 0 5px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm a {color:#333;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.labelsmm a:hover {color:#3e5b7e;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thumcont {
+border-bottom: 1px solid #eee;
+height: 150px;
+overflow: hidden;
+position: relative;
+width: 100%;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thumbin,.thnoimg {
+background-color: #FFF;
+height: 100%;
+position: absolute;
+width: 100%;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thumbin {z-index: 2;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thnoimg {z-index: 1;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thumcont img {
+height: 100%;
+width: 100%;
+transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thumcont img:hover {opacity: 0.5; transform: scale(1.3);}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thnoimg::before {
+color: #fff;
+content: "\f030";
+display: block;
+font: 60px/150px fontawesome;
+text-align: center;
+width: 100%;
+transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.thnoimg:hover::before {background-color:#446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ptitle {
+display:block;
+line-height: 1.8em;
+margin:5px;
+text-align: center;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-snippet {
+font: 14px/1.9em tahoma;
+margin: 0 5px;
+text-align: center;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar .widget {
+background-color: #fff;
+box-shadow: 0 0 0 1px #cccccc inset;
+margin: 0 0 20px;
+overflow: hidden;
+padding: 9px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2::before {
+background-color: #FC5400;
+content: "\f1cb";
+display: block;
+position: absolute;
+font: 24px/34px fontawesome;
+height: 34px;
+width: 34px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2::after {
+color: #446FAA;
+content: "\f0dd";
+display: block;
+font: 30px fontawesome;
+margin-top: -22px;
+position: absolute;
+width: 100%;
+-webkit-margin-before: -19px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar h2 {
+background-color: #446FAA;
+color: #fff;
+font-size: 14px;
+height: 34px;
+line-height: 34px;
+margin: 0 0 15px 0;
+position: relative;
+text-align: center;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#mohawelbtn {position: absolute;visibility: hidden;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.framhol {float: right; visibility: hidden; height:0;  transition: all 0.7s ease 0s;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#mohawelbtn:checked ~ .framhol{visibility: visible; height:241px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#mohawelbtn + label span::before {
+content: "\f121";
+color: #fff;
+float: right;
+font: 20px/24px fontawesome;
+margin-left: 5px;
+text-align: center;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#mohawelbtn + label span::after {
+content: "\f0d7";
+float: left;
+font: 20px/24px fontawesome;
+margin-right: 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.mohawelcontan span {
+background-color: #446FAA;
+color: #fff;
+cursor: pointer;
+float: right;
+font-size: 13px;
+height: 26px;
+line-height: 24px;
+margin-bottom: -1px;
+padding: 0 5px;
+width: 124px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#mohawelbtn:checked + label span {background-color: #FC5400;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#mohawelbtn:checked + label span::after {content: "\f00d";}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto {
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 2px 0 0;
+bottom: 0;
+box-shadow: -1px -1px 1px #bbb;
+list-style: outside none none;
+margin: 0;
+padding: 3px !important;
+position: absolute;
+right: 0;
+z-index: 99;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto  li {
+float: left;
+padding:0;
+display: block;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto a {
+color: #fff;
+display: block;
+height: 20px;
+line-height: 20px;
+text-align: center;
+width: 20px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto a:hover {background-color:#555 !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto .fa.fa-facebook {background-color: #446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto .fa.fa-twitter {background-color: #5aaeee;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sharebuto .fa.fa-google-plus {background-color: #ce3547;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+t #content {float:right;width:530px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+body {background: #fff url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF35BalTqKWmdmv7aKQcyHhu1vCvp7ecmofhq3g_VhPUyPniR75KMJBFiZp79cvsv5g42gnge7TTaT6xp8ENXgOPSMnhCYjKdyVDIivYYnFZK-1MR2TqarFH3Um3VftOKLbWQi6y-61vw/s160-Ic42/cream_pixels.png"); font-family: 'Tahoma', arial; direction: rtl; line-height: 1.52857; color: #434343;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.wrapper{background: #FFFFFF; padding: 10px;     box-shadow: 0 0 5px #D1D1D1; margin: 0 auto;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.item-snippet, .sumry { font: 12px/23px tahoma;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#banner { text-align: center;width: 745px;margin: 10px auto;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ads728 { max-width: 100%; display: block; float: none; overflow: hidden;margin:0 auto}
+
+/* BSkin-SECTION: RESPONSIVE MEDIA QUERIES: استعلامات الوسائط للهواتف */
+@media (min-width:1200px){.container{width:990px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ads728 {max-width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ads728 {max-width: 76%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+[class*="col-"] { padding: 0px 4px; float:right;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+*{border-radius:0 !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.row { margin: 0px -4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.b-sidebar,.b-main{*display: table-column;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.b-header { margin-top: 50px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar { border-radius: 0; margin-bottom:0 background: #343434; border: medium none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.nvbar-top { background:#343434; margin-bottom: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fixed-top { background: none; margin-bottom: 10px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color: #D64738;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-toggle { border: none;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a { color: white; background: #343434}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-nav > li > .dropdown-menu { border: none;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-toggle:focus, .navbar-toggle:hover { background-color: #343434 !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.flrt{float:right}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fllt{float:left}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.sidebar .widget,.post-outer,.b-header,#lhtml{ background: #FFF; padding: 10px; border: 1px solid #DEDCDC; margin-bottom: 15px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.sidebar:hover .widget:hover,.post-outer:hover,.b-header:hover,#lhtml:hover { *background: #F8F8F8;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#navbar-iframe-container, .content-section .navbar{display: none;height: 0px;visibility: hidden;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.widget-content{clear: both;padding:0}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.sidebar .widget{*padding:0;*border-color:#ECE3CA}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.sidebar .PopularPosts {*border-color: #C9E1E1;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.xsidebar h2, .y-title {font-weight: 300;margin: 0px; padding: 9px 10px 9px 15px; font-size: 14.2px; text-align: center; text-transform: uppercase; font-family: Droid Arabic Naskh!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.xsidebar h2 {background: #444;color:#FFF;margin-bottom: 10px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-brand {font-weight: 600;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.nav{padding-right:0;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-collapse {padding-left: 0;padding-right: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a {color: #446FAA;transition: color .3s;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a:hover:{color: #446FAA!important;text-decoration:none!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control {transition: all 0.25s ease-in-out 0s;width:130px;border-right: none;border-top: none;border-bottom: none;background: #FFF;border-left: none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control:focus {width: 170px;box-shadow:none}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis button {border-right: none;color: #FFF;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav > li > a { color: #FFF;font-family: Droid Arabic Naskh;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fa-lightbulb-o:before {content: "\f0eb";font-size: 15px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.active {background: #444;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-2 {background-color: #446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+li.new:before { content: "جديد"; font-size: 10px; font-weight: 400; padding: 0 4px; border-radius: 2px; color: #fff; background: rgba(231, 76, 60, 0.83); display: inline-block; position: absolute; right: 5px; bottom: 30px;z-index: 99;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-1 .navbar-nav > li > a {font-size: 12px;font-weight:300;padding-right:17px;padding-left:17px;    border-top: 2px solid #555;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-1 .navbar-nav > li > a:hover {background:#444444;    border-top: 2px solid #FC5400;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-2 .navbar-nav > li > a {font-family: Droid Arabic Naskh !important;text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.15);font-weight:300;padding: 9px 11px; font-size:13px;border-left: 1px solid #FFFFFF;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav > li > a:hover {color: white;background: #403F3F;text-shadow:none}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+color: #FFF; background-color: #343434;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover { color: #FFF; background: #FC5400}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover { color: #FFF; background-color: #343434;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-brand { color: #FFF; padding: 0; height: 40px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.bcomment {padding: 6px 6px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.bg-profile {width: 34px;height: 32px;color: #888282;padding: 6px 12px 6px 7px; border-right: 1px solid rgb(223, 223, 223);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.bdate abbr{border-bottom:none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.bdate a{color:#888282;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.bdate {border-right: 1px solid rgb(223, 223, 223);padding: 6px 6px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-outer .widget-content.well {background:#F0E4D2;box-shadow:none}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.widget-content.well h3{text-align:center;font-size: 18px;font-weight: 700;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+header{margin: 0px auto;width: 100%}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.search-div{padding-left:2px;margin-left: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.e789e5 {margin-top: 6px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.FollowByEmail input { border: 1px solid rgb(209, 209, 209);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.FollowByEmail .btn, .FollowByEmail input { padding: 4px 10px; font-size: 17px; margin-top: 10px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#header { padding-top: 20px; padding-bottom: 20px; width: 240px; max-width:90%; float:right}
+
+/* BSkin-SECTION: RESPONSIVE MEDIA QUERIES: استعلامات الوسائط للهواتف */
+@media (max-width: 767px) {
+#footer-wrapper {max-width: 100%;margin: 0px 0px 0px auto;}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+#footer-wrapper h2 {font-size: 12px!important;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.user-rootsoft{right: -85px!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis {display: table;height: 54px;margin: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.e789e5 {width: 100%;margin-bottom: 6px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis button {width: 20%;padding-left: 3%;background: #444444;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control {width: 80% !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.search-bx {padding: 0}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.ads1post{display:none}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.ads3post { float: none!important; right: 0!important; width: auto!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tabs-widget li{width: 33.3%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.showpagePoint { margin: 4px 2px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#Header-wrapper { background-repeat: no-repeat!important; background-position: 47%;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.fixed-top .navbar-toggle {margin-left: 0}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#footx1:before,#footx2:before,#footx3:before,#footx4:before,#BlogArchive1:before{display:none}
+
+/* BSkin-SECTION: FOOTER STYLES: تنسيقات الفوتر */
+#footer-widgetfix .footer-widget {width: 47%!important;margin: 3px!important; padding: 10px !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#footx1::before, #footx2::before, #footx3::before, #footx4::before{float:right;position: initial;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#Header1 img {padding-right: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.carousel-control {background-image: initial !important;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#header-wrap {background-size: contain!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.innerhm,#feed-list-container{display:none;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-1 {background: #444;margin-top: 12px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis button {border-right: 1px solid #CCAD98;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control:focus {width: 80%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#backtotop {font-size:20px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#backtotop{left:15px;bottom:0;display:none;width:34px;height:34px;color:#fff;text-align:center;background-color:#303030;font-size:22px;line-height:32px;padding:0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.cl-item-page > .flrt {clear: both;float: none;margin:0 auto 12px}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+.cl-item-page > .flrt > img {margin: auto;display: block;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.social {margin: 0 auto;display: block;width: 150px;float: none !important;padding: 7px 0 0 !important;clear: both;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.search-div{padding-left:4px}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-nav {margin: 4px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {padding:10px 0}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-toggle {float: left;margin-left: 15px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-form {padding:10px 4px !important}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-inverse .navbar-brand {float: right;max-width: 75%}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#header {margin:0 auto;float:none}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-form .input-group > .form-control {width: 100%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.vb-link {right: initial !important;bottom: initial !important;position: relative !important;margin: 25px 0 !important;width: 100% !important;left: initial !important;text-align: center !important;}
+
+/* BSkin-SECTION: RESPONSIVE MEDIA QUERIES: استعلامات الوسائط للهواتف */
+@media (max-width: 992px) {.ads728 {max-width:100%;padding-top: 20px;float: none;clear:both;position: static;right:0}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control{width:90px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control:focus{width:100px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {top: 45%;}
+
+/* BSkin-SECTION: RESPONSIVE MEDIA QUERIES: استعلامات الوسائط للهواتف */
+@media (min-width: 768px) {
+.social {margin-right: 10px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.ads3post{right: 0!important;left: 0;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-1 {float: left;width: 67%;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#bs-example-navbar-collapse-1 .navbar-nav {background: #555;float: left;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis {*margin-left: -4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis .form-control {border: none;height: 26px;margin-left: 6px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#searchthis button {background: #446FAA;border: none;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-form {float: left;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-header{float: right;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-nav{float: right;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-nav > li{float: right;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-brand  {float: right;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar-form { padding: 0px; margin: 0px 2px 0px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#Header1 { width: 40%;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ltspst { background: #343434; padding: 12px 17px 12px; font-size: 16px; color: #FFF; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); margin: 0 0 -1px; width: auto; display: inline-block; text-transform: uppercase;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.lts-post { border-bottom: 2px solid #343434; margin: 0px 4px 4px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+h1, h2, h3, h4{font-family: 'Tahoma', arial !important;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h1.post-title { border-bottom: 1px solid #DCDCDC; font-size: 24px; padding: 0px 16px 19px; font-weight: 600; margin: 15px -16px 17px; color: #343434;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title { border-bottom: none; font-size: 26px; padding: 0px 16px 19px; font-weight: 700; margin: 10px -5px 17px; color: #343434;  line-height:1.5;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.date-header {display:none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.badge{border-radius:32px !important}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+.label{border-radius:4px !important}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.input-group-btn > .btn {border-radius: 0px !important;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-footer-line-1 a {text-decoration:none;color: #555;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-header {margin-bottom: 15px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-header, .post-header a, .post-header abbr[data-original-title], .eader abbr[title] { color: #AAA !important; border-bottom: medium none !important;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-footer { display: block; padding: 15px 0 5px; margin: 15px 0 5px; border-top: #efefef solid 1px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.widget-content ul{ padding-right: 0px; margin-bottom:0; list-style: outside none none;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar .dropdown-menu {padding:0;right:0;text-align:right}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar .dropdown-menu > li > a {padding: 7px 20px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar .navbar-toggle {border-radius:4px !important;background: #FC4500;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.HTML .widget-content{padding:0}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#sidebar { width: auto;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-outer{position: relative;overflow: hidden;*padding:17px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.PageList .widget-content ul li { padding: 7px 10px; margin: 2px 0px; display: block; border-bottom: 1px solid #EEE;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.PageList .widget-content ul li:last-child { border: none;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+#sidebar .PopularPosts .widget-content ul li{border-bottom: 1px solid #DCDCDC;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+#sidebar .PopularPosts .widget-content ul li:last-child{border-bottom: none;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+footer .PopularPosts .widget-content ul li{border-bottom: 1px solid #2d2d2d;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+footer .PopularPosts .widget-content ul li:last-child{border-bottom: none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+/*-------------------- search form ------------------*/ input.gsc-input { border: 1px solid rgb(189, 189, 189) !important; padding: 6px !important; width: 100% !important; border-right: none !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+table.gsc-search-box td.gsc-input { padding-right: 0px !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+input.gsc-search-button { margin-left: 0px !important; padding: 6px 20px !important; background: rgb(242, 242, 242) !important; border: 1px solid rgb(189, 189, 189) !important;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+/*-------------------- thumb ------------------*/ .article {padding: 0px 4px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body>div>img {top: 0;left: 0;right: 0;bottom: 0;width: ;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body {color: #4E4E4E;line-height: 25px;font-family:'Droid Arabic Naskh',sans-serif;text-decoration:none;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-body a {padding: 0 ;margin: 0 ;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.posts-thumb img{width:100%;height:180px}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-labels a { background: #808080; color: #FFF; padding: 0px 5px; border-radius: 0px 2px 2px 0px !important; position: relative; margin-left: 11px; font-size: 11.5px;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-labels a::before { content: no-close-quote; width: 0px; height: 0px; display: table; left: -11px; z-index: 1; border-right: 11px solid #808080; position: absolute; border-bottom: 10px solid transparent; border-top: 11px solid transparent; bottom: 1px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#Xblog-pager{padding:0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#content #lhtml {position:relative;float:left;width:100%}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#content #lhtml h2 { position: absolute; top: 0px; left: 0px; z-index: 9; padding: 12px 15px; margin: 0px; background: #343434; font-size: 14.5px; color: #D1F5FF; right: 0px; border-bottom: 1px solid #E4E4E4;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover { background: #446FAA; border-color: #C13A2C;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.pagination > li > a, .pagination > li > span { color: #446FAA; background: #FFFFFF; border: none; font-family: electrolize; font-size: 12.5px;border: 1px solid #DCDADA; border-bottom: 2px solid #D6D5D5;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.pagination > li{float:right;margin-left:5px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.pagination>li>a, .pagination>li>span { position: relative; float: left; padding: 5px 10px; line-height: 1.42857143; text-decoration:none;}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+/*--------------- widget label -----------------------*/ /* Recent posts by labels --------------------------------- */ img.label_thumb{ float: left; margin-right: 10px !important; height: 75px; width: 75px;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#label_with_thumbs { float: left; width: 100%; min-height: 70px; margin: 0px 10px 2px 0px; padding: 0;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+ul#label_with_thumbs li { padding: 9px 0px 0; min-height: 65px; margin-bottom: 0px; border-bottom: 1px solid #eee; height: 100px; overflow: hidden;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+ul#label_with_thumbs li:last-child { border-bottom: none;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#label_with_thumbs li{ list-style: none ; padding-left:0px !important;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#label_with_thumbs a { text-transform: uppercase;}
+
+/* BSkin-SECTION: LABELS/TAGS STYLES: تنسيقات التصنيفات والسحابة */
+#label_with_thumbs strong {padding-left:0px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.bc-bcomment {color:#444}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.nav > li > a { padding-left:10px; padding-right:10px; *border-right:solid 1px #494F6E;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.nvbar-bottom .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group { *background:transparent; *border:none; *color:white;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.nvbar-bottom{min-height: 38px;background:#444;-webkit-transition: all 1s ease-in;transition: all 0.8s ease-in-out 0s;position:initial;top:-120px;margin-bottom:15px}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+header .cntnr{ margin-top: -1px; position: relative; width: 100%;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#Header1 img { margin: -3px -19px; width: ; height: initial; padding: 0 20px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+#Header1 { width: auto;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-warning {background-color: #D28046;border-color: #D28046;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-primary {color: #fff;background-color: #446FAA;border-color: #446FAA;text-shadow:none !important;font-family: 'Droid Arabic Naskh',sans-serif;border-radius: 2px!important; padding: 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary { color: #FFF; background-color: #343434; border-color: #343434;border-radius: 2px!important; padding: 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-twitter { background: #00acee; border-radius: 0; margin-top:5px; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-twitter:link, .btn-twitter:visited { color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-twitter:active, .btn-twitter:hover { background: #0087bd; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-facebook { background: #3b5998; border-radius: 0; margin-top:5px; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-facebook:link, .btn-facebook:visited { color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-facebook:active, .btn-facebook:hover { background: #30477a; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-googleplus { background: #e93f2e; border-radius: 0; margin-top:5px; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-googleplus:link, .btn-googleplus:visited { color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-googleplus:active, .btn-googleplus:hover { background: #ba3225; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-stumbleupon { background: #f74425; border-radius: 0; margin-top:5px; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-stumbleupon:link, .btn-stumbleupon:visited { color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-stumbleupon:active, .btn-stumbleupon:hover { background: #c7371e; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-linkedin { background: #0e76a8; border-radius: 0; margin-top:5px; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-linkedin:link, .btn-linkedin:visited { color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-linkedin:active, .btn-linkedin:hover { background: #0b6087; color: #fff}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.copyright{padding:0 4px}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+.post-outer .fb_iframe_widget { display: inline-block !important; position: relative; height: 40px; vertical-align: top;margin-left: 7px; width: initial;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#___plusone_0 { vertical-align: top !important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#twitter-widget-0 { margin-right: 7px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#nav-med.affix { position: fixed; top: 0; width: 100%; z-index:9999;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.tooltip-inner{font-family:tahoma, arial;padding:7px}
+
+/* BSkin-SECTION: POST STYLES: تنسيقات المقالات ومحتوى التدوينات */
+h3.post-title {padding: 0px 5.5px 19px;}
+
+/* BSkin-SECTION: HEADER/NAV STYLES: تنسيقات الهيدر والقائمة */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{margin-left: -5px;font-size: 25px;margin-top: -2px;text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.21);}
+
+/* BSkin-SECTION: RESPONSIVE MEDIA QUERIES: استعلامات الوسائط للهواتف */
+@media (max-width: 480px) { .b-item{width:100%}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.carousel-indicators li.active::after {display:none}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.carousel-inner > .item {height: 280px;overflow:hidden;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.carousel-caption .carousel-title h3 {font-size: 17px;line-height: 1.7;padding-top: 10px;padding-bottom: 10px;font-weight: 700;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget span.fa { width: 47px; height: 47px; color:white; vertical-align: top; padding: 10px; font-size: 26px; right: 0; text-align: center; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 1%, rgba(255,255,255,0.1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.1)), color-stop(1%,rgba(255,255,255,0.1)), color-stop(100%,rgba(255,255,255,0.1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 1%,rgba(255,255,255,0.1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 1%,rgba(255,255,255,0.1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 1%,rgba(255,255,255,0.1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 1%,rgba(255,255,255,0.1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affffff', endColorstr='#1affffff',GradientType=0 );}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget > a { display: block; width: 100%; height: 47px; position: relative; cursor: pointer;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.facebook-box {background-color: #506ba7;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.twitter-box {background-color: #56A4C6;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.googleplus-box {background-color: #BC4B37;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget > a.facebook-box:hover { -webkit-box-shadow: inset 0px 0px 80px 44px rgba(47,77,147,1); -moz-box-shadow: inset 0px 0px 80px 44px rgba(47,77,147,1); box-shadow: inset 0px 0px 80px 44px rgba(47,77,147,1);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget > a.twitter-box:hover { -webkit-box-shadow: inset 0px 0px 80px 44px rgba(45,122,186,1); -moz-box-shadow: inset 0px 0px 80px 44px rgba(45,122,186,1); box-shadow: inset 0px 0px 80px 44px rgba(45,122,186,1);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget > a.googleplus-box:hover { -webkit-box-shadow: inset 0px 0px 80px 44px rgba(207,40,27,1); -moz-box-shadow: inset 0px 0px 80px 44px rgba(207,40,27,1); box-shadow: inset 0px 0px 80px 44px rgba(207,40,27,1);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget span {display: block;position: absolute;color: #FFFFFF;right: 70px;font-size: 12px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget .title {top: 7px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#socialCounterWidget .count {top: 23px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.author-social { margin-top: -8px; margin-left: -7px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ttip > i.fa { color: #FFF; font-size: 21px; width: 35px; text-align: center; height: 31px; padding: 5px 7px; margin-right: -5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ttip > i.fa-facebook { background: #3B5998;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ttip > i.fa-twitter { background: #00ACEE;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ttip > i.fa-google { background: #E15142;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ttip > i.fa-instagram { background: #5280A5;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+html {overflow-x: hidden;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.quickedit{display:none;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.user-rootsoft { position: relative; z-index: 2; font-size: 12px; top: 10px; font-weight: normal; padding: 0 12px; float: left; height: 25px; line-height: 27px; background-color: #446FAA; font-family: Droid Arabic Naskh;cursor: pointer;right: -40px;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.user-rootsoft a { color: #fff;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+.user-rootsoft:before { content: ""; border: 8px solid #446FAA; border-left-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); position: absolute; left: -16px; top: -0px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fa-user:before { content: "\f007"; color: #fff;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fa-envelope:before {content: &quot;\f0e0&quot;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fa-envelope:hover{color: #CF3E2F;transition: all 0.3s linear;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fa-envelope-o:before { content: &quot;\f003&quot;; padding-bottom: 23px; background: #D14132; padding-top: 23px; padding-right: 21px; padding-left: 21px; margin-right: -19px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.Life-teks {display: block; position: relative; background-color: #404248; color: #eee; border-radius: 5px!important; margin: .75em 0; padding: 10px 15px; font: 13px/1.5em tahoma;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.Life-teks:before {content: ""; width: 0; height: 0; position: absolute; bottom: 100%; right: 15px; border: 7px solid transparent; border-color: transparent transparent #404248;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+pre::-webkit-scrollbar,pre::-moz-scrollbar,pre code::-webkit-scrollbar,pre code::-moz-scrollbar,code::-webkit-scrollbar,code::-moz-scrollbar {display:none;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+pre::before{font-size:15px;font-weight:700;content:attr(title);position:absolute;top:0;padding:9px 0;left:0;right:0;color:#79798d;display:block;margin:0;text-indent:15px}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+pre code{display: block; background: none; border: none; color: #68696B; padding: 0 20px 10px 10px; white-space: pre; overflow: auto;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+code .token.important {font-weight:bold;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+code .token.entity {cursor:help;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+pre mark,code mark,pre code mark {background-color:#3498db!important;color:#fff!important;padding:2px;margin:0 2px;border-radius:2px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+pre[data-codetype=&quot;CSSku&quot;]:before,pre[data-codetype=&quot;HTMLku&quot;]:before,
+pre[data-codetype=&quot;JavaScriptku&quot;]:before,pre[data-codetype=&quot;JQueryku&quot;]:before{background-color:#fff;box-shadow:inset 0 0 0 1px #eee;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.awal{float: right;color: #E85545;background: transparent;line-height: 30px;font-family: Electrolize,'ge_ss_tvbold';font-size: 50px;padding-left: 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+relevant:before { content: "\f005"; font-family: FontAwesome; color: #30C1FB; padding-left: 5px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+relevant { color: #30C1FB;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+how-rootsoft,howrootsoft {position: relative; background-color: #9EB2C0; color: #fff; border-radius: 2px!important; padding: 4px 15px; display: table-cell; margin: -8px 0; width: 100%;}
+
+/* BSkin-SECTION: ROOTSOFT/PAGER: تنسيقات Pager وروابط التنقل */
+how-rootsoft:before,howrootsoft:before  { content: ""; width: 0; height: 0; position: absolute; top: 100%; right: 15px; border: 7px solid transparent; border-top-color: #9EB2C0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+#credit{display:none}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.style-1{ background: #E43D3D; color: #fff; position: relative; overflow: hidden; margin: 0; letter-spacing: .3px; font-size: 11px; font-weight: normal; border-radius: 2px!important; padding: 5px 10px; display: inline-table; vertical-align: middle;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.style-2{ background: #4d90fe; color: #fff; position: relative; overflow: hidden; margin: 0; letter-spacing: .3px; font-size: 11px; font-weight: normal; border-radius: 2px!important; padding: 5px 10px; display: inline-table; vertical-align: middle;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.pluso-box{display:none!important}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+span.pluso-counter { float: right!important; margin-top: -20px!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.pluso-more{visibility: hidden!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ribbon-content { position: relative; background-color: #446FAA; color: #fff; border-radius: 2px!important; padding: 10px 15px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.ribbon-content:before { content: ""; width: 0; height: 0; position: absolute; top: 100%; right: 15px; border: 7px solid transparent; border-top-color: #446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+h3.ribbon { font-family: ge_ss_tvbold!important; color: #446FAA;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.hello-blog h4 { position: relative;    font-family: ge_ss_tvbold!important; overflow: hidden; margin: 0 0 20px; font-size: 120%; font-weight: 700; padding: 0 8px; text-align: center; text-transform: uppercase; transition: all 0.5s ease-out;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.hello-blog h4:before { margin-right: -50%; text-align: right}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.hello-blog h4:before, .hello-blog h4:after { position: absolute; top: 51%; overflow: hidden; width: 48%; height: 3px; content: '\a0'; background-color: #7F8184;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.hello-blog h4:after { margin: 0 18px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+alert-warning:after { content: "\f09b"; font-family: fontAwesome; font-style: normal; font-weight: normal; font-size: 18px; color: #768187; float: left;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.well { padding: 10px;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.alert-warning { color: #555555; font-family:'Droid Arabic Naskh'!important;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.btn-default {color: #fff!important;background-color: #5A5959;border-color: #EAE9E9!important;    padding-bottom: 0!important;padding: 6px;font-family: 'Droid Arabic Naskh',sans-serif;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+a.active1 { background: #FC5400;}
+
+/* BSkin-SECTION: THUMBNAILS/IMAGES: تنسيقات الصور المصغرة والوسائط */
+@keyframes thumlok{
+0% {transform:  translate(0px,0px);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+100% {transform:  translate(5px,0px);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+@keyframes fadeInUp {
+0% {opacity: 0;transform: translateY(20px);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+100% {opacity: 1;transform: translateY(0);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.fadeInUp {
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-name: fadeInUp;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+@keyframes flipInX {
+0% {transform: perspective(400px) rotateX(90deg);opacity: 0;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+40% {transform: perspective(400px) rotateX(-10deg);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+70% {transform: perspective(400px) rotateX(10deg);}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+100% {transform: perspective(400px) rotateX(0deg);opacity: 1;}
+
+/* BSkin-SECTION: MISC STYLE: أنماط عامة/أخرى */
+.flipInX {
+animation-fill-mode: both;
+animation-duration: 1s;
+backface-visibility: visible !important;
+animation-name: flipInX;}
+
+*/}
