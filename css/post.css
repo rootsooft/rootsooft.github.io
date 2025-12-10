@@ -1,0 +1,211 @@
+/* =========================================
+   POST / ARTICLE STYLES
+   - العناوين، المحتوى، الصور، القوائم، الاقتباسات، مشاركة
+   - جاهز للرفع كـ /css/post.css
+   ========================================= */
+
+/* عام للمحتوى */
+.post-body {
+  color: #4E4E4E;
+  line-height: 25px;
+  font-family: 'Droid Arabic Naskh', sans-serif;
+  text-decoration: none;
+  direction: rtl;
+  font-size: 15px;
+}
+
+/* عناوين المقالات */
+h1.post-title {
+  border-bottom: 1px solid #DCDCDC;
+  font-size: 24px;
+  padding: 0 16px 19px;
+  font-weight: 600;
+  margin: 15px -16px 17px;
+  color: #343434;
+}
+
+h3.post-title {
+  border-bottom: none;
+  font-size: 26px;
+  padding: 0 16px 19px;
+  font-weight: 700;
+  margin: 10px -5px 17px;
+  color: #343434;
+  line-height: 1.5;
+}
+
+/* الفقرات واللابتوب */
+.post-snippet,
+.item-snippet,
+.sumry {
+  font: 14px/1.9em tahoma;
+  margin: 0 5px;
+  text-align: center;
+}
+
+/* الصور داخل المقال */
+.post-body img {
+  background: #FFFFFF;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  margin-bottom: 6px;
+  opacity: 1;
+  transition: all .6s ease;
+  display: block;
+}
+
+/* صور مدمجة (float) */
+.post-body img.float-right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+.post-body img.float-left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+/* تصغير/تكبير عند التحويم */
+.post-body img:hover {
+  opacity: 0.95;
+  transform: scale(1.02);
+}
+
+/* القوائم المرتبة */
+.post ol {
+  counter-reset: li;
+  list-style: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.post ol li {
+  position: relative;
+  margin: 0 15px 20px 0 !important;
+  padding: 4px 10px 4px 5px !important;
+  list-style: none;
+  border-bottom: 1px solid #e2e3e2;
+  background-color: #f2f2f2;
+  text-indent: 14px;
+}
+
+/* رقم العنصر الدائري */
+.post ol li:before {
+  background-color: #446FAA;
+  color: #fff;
+  content: counter(li, decimal);
+  counter-increment: li;
+  font: bold 14px serif;
+  margin: 0 0 10px;
+  padding: 5px 3px !important;
+  position: absolute;
+  right: -9px;
+  top: -5px;
+  width: 20px;
+  text-align: right;
+}
+
+/* علامة صغيرة على العنصر */
+.post ol li:after {
+  border-color: transparent #446FAA transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0 0;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 17px;
+  top: -5px;
+  width: 0;
+}
+
+/* القوائم غير المرتبة داخل المقال */
+.post ul {
+  margin: 0 0 15px 0;
+  padding-right: 18px;
+  list-style: disc;
+}
+
+/* الاقتباسات */
+blockquote {
+  background-color: #eee;
+  color: #444;
+  font: 14px/1.8em georgia;
+  margin: 20px auto;
+  padding: 20px;
+  border-right: 4px solid #446FAA;
+  direction: rtl;
+}
+
+/* تنسيقات خاصة للرموز داخل الاقتباس (إذا استُخدمت عناصر مخصصة) */
+blockquote::before {
+  content: "“";
+  font-size: 36px;
+  color: #446FAA;
+  float: right;
+  margin-left: 10px;
+}
+
+/* مشاركة التدوينة - أزرار */
+.post-sharing {
+  margin: 0 auto 20px;
+  position: relative;
+  text-align: right;
+  clear: both;
+}
+
+.post-sharing a {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+  margin-left: 6px;
+}
+
+.post-sharing a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+/* ألوان افتراضية لأزرار المشاركة — يمكن استبدال بالأيقونات المناسبة */
+.post-sharing .facebook-share { background: #3B5998; }
+.post-sharing .twitter-share  { background: #00ACED; }
+.post-sharing .whatsapp-share { background: #2AB200; }
+.post-sharing .google-share   { background: #D14836; }
+
+/* شريط معلومات التدوينة (تاريخ، مؤلف) */
+.post-header {
+  margin-bottom: 15px;
+  color: #AAA !important;
+}
+
+/* روابط داخل المحتوى */
+.post-body a {
+  color: #446FAA;
+  text-decoration: underline;
+}
+
+.post-body a:hover {
+  color: #343434;
+}
+
+/* استجابة وتجاوب */
+@media (max-width: 767px) {
+  .post-body { font-size: 16px; line-height: 1.7; }
+  h3.post-title { font-size: 20px; padding: 0 10px 14px; }
+}
+
+/* صور المصغرات داخل القوائم (recent) */
+img.label_thumb {
+  float: left;
+  margin-right: 10px !important;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+/* انتهاء ملف post.css */
