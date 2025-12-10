@@ -1,0 +1,227 @@
+/* =========================================
+   RESPONSIVE DESIGN — MOBILE & TABLET
+   ========================================= */
+
+/* ========== SMALL SCREENS — MOBILE (max-width: 767px) ========== */
+@media (max-width: 767px) {
+
+  /* Hide some elements */
+  .innerhm,
+  #feed-list-container {
+    display: none;
+  }
+
+  /* Ads */
+  .ads1post {
+    display: none;
+  }
+
+  .ads3post {
+    float: none !important;
+    right: 0 !important;
+    width: auto !important;
+  }
+
+  /* Tabs */
+  .tabs-widget li {
+    width: 33.3%;
+  }
+
+  /* Footer improvements */
+  #footer-wrapper .footer-widget {
+    width: 47% !important;
+    margin: 3px !important;
+    padding: 10px !important;
+  }
+
+  #footer-wrapper h2 {
+    font-size: 12px !important;
+  }
+
+  /* Navbar adjustments */
+  #bs-example-navbar-collapse-1 {
+    background: #444;
+    margin-top: 12px;
+  }
+
+  .navbar-toggle {
+    float: left;
+    margin-left: 15px;
+  }
+
+  .navbar-inverse .navbar-brand {
+    max-width: 75%;
+    float: none !important;
+  }
+
+  .navbar-form {
+    padding: 10px 4px !important;
+  }
+
+  /* Search */
+  #searchthis {
+    display: table;
+    height: 54px;
+    margin: 0;
+  }
+
+  #searchthis button {
+    width: 20%;
+    padding-left: 3%;
+    background: #444444;
+  }
+
+  #searchthis .form-control {
+    width: 80% !important;
+  }
+
+  #searchthis .form-control:focus {
+    width: 80%;
+  }
+
+  /* Back to top button */
+  #backtotop {
+    left: 15px;
+    bottom: 0;
+    display: none;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    background-color: #303030;
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0;
+  }
+
+  /* Content images */
+  .cl-item-page > .flrt > img {
+    margin: auto;
+    display: block;
+  }
+
+  /* Social icons */
+  .social {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    float: none !important;
+    padding: 7px 0 0 !important;
+    clear: both;
+  }
+
+  /* Header wrapper */
+  #Header-wrapper {
+    background-position: 47% !important;
+  }
+
+  /* Video/button layout */
+  .vb-link {
+    right: initial !important;
+    bottom: initial !important;
+    position: relative !important;
+    margin: 25px 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+/* ========== MEDIUM SCREENS — TABLET (max-width: 992px) ========== */
+@media (max-width: 992px) {
+
+  /* Ads */
+  .ads728 {
+    max-width: 100%;
+    padding-top: 20px;
+    float: none;
+    clear: both;
+    right: 0;
+  }
+
+  /* Search */
+  #searchthis .form-control {
+    width: 90px;
+  }
+
+  #searchthis .form-control:focus {
+    width: 100px;
+  }
+
+  /* Carousel navigation */
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next,
+  .carousel-control .icon-prev {
+    top: 45%;
+  }
+}
+
+/* ========== TABLET & SMALL DESKTOP (min-width: 768px) ========== */
+@media (min-width: 768px) {
+
+  /* Navbar layout */
+  #bs-example-navbar-collapse-1 {
+    float: left;
+    width: 67%;
+  }
+
+  #bs-example-navbar-collapse-1 .navbar-nav {
+    background: #555;
+    float: left;
+  }
+
+  /* Search */
+  #searchthis .form-control {
+    border: none;
+    height: 26px;
+    margin-left: 6px;
+  }
+
+  #searchthis button {
+    background: #446FAA;
+    border: none;
+  }
+
+  .navbar-form {
+    float: left;
+    padding: 0;
+    margin: 0 2px 0;
+  }
+
+  /* Header layout */
+  .navbar-header {
+    float: right;
+  }
+
+  .navbar-nav {
+    float: right;
+  }
+
+  .navbar-brand {
+    float: right;
+  }
+}
+
+/* ========== VERY SMALL SCREENS (max-width: 480px) ========== */
+@media (max-width: 480px) {
+
+  /* Full-width items */
+  .b-item {
+    width: 100%;
+  }
+
+  /* Carousel adjustments */
+  .carousel-inner > .item {
+    height: 280px;
+    overflow: hidden;
+  }
+
+  .carousel-caption .carousel-title h3 {
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 10px 0;
+    font-weight: 700;
+  }
+}
+
+/* END responsive.css */
