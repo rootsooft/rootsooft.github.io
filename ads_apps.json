@@ -1,0 +1,31 @@
+{
+  "ads_list": [
+    {
+      "id": 1,
+      "app_name": "Adley fake call ",
+      "app_icon": "https://play-lh.googleusercontent.com/LREvVggMATd-_vGk7JzGOlcWbQfNi2aY05wGC44Ia9PloG9G6A1mMB6Xmkc6LxrK8q-_Ks3wxg5lItj199oKjOs=w240-h480-rw",
+      "app_rating": 4.5,
+      "rating_count": "(4.5)",
+      "button_text": "Install",
+      "action_url": "https://play.google.com/store/apps/details?id=com.reemdev.dinaroma"
+    },
+    {
+      "id": 2,
+      "app_name": "Nastya fake call ",
+      "app_icon": "https://play-lh.googleusercontent.com/Rvj_lGQtz39OGCQApgMIhLpuNblbXA9x4hupA-uXhdIR2-U0qC7OpX_4aJzlD1vvD3xoAEIV_zwBUxZCoRBHkg=w240-h480-rw",
+      "app_rating": 4.8,
+      "rating_count": "(4.8)",
+      "button_text": "Install",
+      "action_url": "https://play.google.com/store/apps/details?id=com.reemdev.dinaroma"
+    },
+    {
+      "id": 3,
+      "app_name": "fake call",
+      "app_icon": "https://play-lh.googleusercontent.com/wHr7GSmGB3Bn97zlnqNSbu8FHBddhknBviZt2FGF0BKrpLQrVSIn0RiDZelw79-C0xB2IbIiI9MGHlUxd4D4gg=w240-h480-rw",
+      "app_rating": 4.2,
+      "rating_count": "(4.2)",
+      "button_text": "Install",
+      "action_url": "https://play.google.com/store/apps/details?id=com.reemdev.dinaroma"
+    }
+  ]
+}
